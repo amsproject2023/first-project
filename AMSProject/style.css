@@ -1,0 +1,322 @@
+							/* common styles for all sections starts */
+@font-face{
+font-family:poppinsBold;
+src:url('../fonts/Poppins-Bold.ttf');
+}
+@font-face{
+font-family:poppinsLight;
+src:url('../fonts/Poppins-Light.ttf');
+}
+@font-face{
+font-family:poppinsMedium;
+src:url('../fonts/Poppins-Medium.ttf');
+}
+@font-face{
+font-family:poppinsRegular;
+src:url('../fonts/Poppins-Regular.ttf');
+}
+h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-family: poppinsMedium;
+    color: #2767b4;
+}
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0px;
+    font-family: 'poppinsRegular';
+}
+p {
+    font-family: 'poppinsRegular';
+}
+							/* common styles for all sections ends */
+
+							/*header section styles starts*/
+.logo img {
+    width: 200px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    gap: 45px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:poppinsLight;
+}
+							/*header section styles ends*/
+
+							/*banner section style starts*/
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner-content{
+    box-sizing:border-box;
+    width:50%;
+    padding:0 0 0 8%;
+}
+.banner-image{
+    box-sizing:border-box;
+    width:45%;
+}
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content span {
+    display: block;
+    color: #f8861b;
+    font-family: poppinsBold;
+}
+.banner-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: start;
+    color:black;
+    font-family: 'poppinsLight';
+    font-weight: normal;
+}
+							/*banner section style ends*/
+
+							/*About us section starts*/
+.about-us p {
+    font-family: 'poppinsLight';
+    font-size: 18px;
+    margin-inline:21%;
+    color: #666666;
+	text-align:justify;
+}
+.about-section {
+    padding: 0 0 3% 0;
+}
+
+							/*About us section ends*/
+
+							/* services section starts */
+.services,.courses {
+    display: flex;
+    padding: 0% 11% 3%;
+}
+.services-title {
+    padding: 0 0 1% 0;
+}
+.service {
+    border: 1px solid black;
+    margin: 0% 2%;
+    border-radius: 5px;
+}
+.ams-service {
+    padding: 6%;
+}
+.ams-service h3, .ams-service p {
+    margin: 0 0 5% 0;
+}
+.read-btn {
+    background-color: #005bea;
+    color: white;
+    border: none;
+    padding: 3% 15%;
+border-radius: 5px;
+}
+.ams-service .read-btn {
+    margin: 6% 0;
+}
+
+							/* services section ends */
+
+							/*Featured courses starts*/
+.course {
+    border: 1px solid black;
+    margin:0% 2%;
+}
+.course ul {
+    padding: 0px;
+    overflow: hidden;
+    height: 21%;
+    margin: 0px;
+}
+.course ul:hover {
+    padding: 0px;
+ overflow-y: scroll;
+}
+.course li {
+    list-style: none;
+    padding: 4% 6%;
+}
+.course p, .course li {
+    border-bottom: 1px solid;
+}
+.course a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.course p {
+    padding: 0% 6% 7%;
+    margin: 0px;
+}
+.course h3 {
+    padding: 7% 6% 3%;
+}
+.course .read-btn{
+
+    margin:6% 6%;
+}
+.featured-title {
+    padding: 2% 0% 0%;
+}
+							/*Featured courses ends*/
+
+							/*testimonials starts*/
+.testimonials-section{
+    background:url(../images/ams-testimonials-background.jpg) no-repeat 0px 0px;
+    background-size:cover;
+}
+
+.profiles {
+    background:url(../images/ams-testimonials-quotes-frame.png);
+    background-size:cover;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0 12% 0;
+    position:relative;
+}
+.profile-content {
+    width: 60%;
+}
+.profile-photo {
+    width: 38%;
+    padding: 8% 0% 0% 0%;
+    box-sizing: border-box;
+}
+.profile-photo h5 {
+    color: #18242c;
+    margin: 15% 0;
+    font-family: 'poppinsRegular';
+}
+.profile-content p {
+    padding: 28% 0% 0% 15%;
+}
+img.pin {
+    position: absolute;
+    right: 11%;
+    top: -5px;
+}
+.slide-circles span {
+    background-color: #b5a9a9;
+    height: 18px;
+    width: 18px;
+    display: block;
+    border-radius: 100%;
+    margin:0px 6px;
+}
+.slide-circles {
+    display: flex;
+    justify-content: center;
+    padding:3% 0%;
+    position:relative;
+    bottom:76px;
+}
+							/*testimonials ends*/
+
+							/*contact us section starts*/
+.contact-section {
+    background: blue url(../images/ams-contact-us-background.jpg) no-repeat 0px 0px;
+    text-align:center;
+    background-size:cover;
+    padding: 3% 0% 6%;
+}
+.contact-us h1 {
+    color: white;
+}
+.inputs {
+    padding: 34px 0 0 0;
+}
+input {
+    padding: 20px 40px;
+    margin: 1%;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    font-size: 17px;
+    font-style: italic;
+    width: 22%;
+}
+input#submit-btn {
+    background-color: #fba43d;
+    width: 15%;
+    font-family: 'poppinsBold';
+    font-size: 20px;
+    padding: 12px 0px;
+}
+							/*contact us section ends*/
+							/*footer starts*/
+.footer-logo,.menus,.policies,.social-media {
+    width: 20%;
+}
+.footer-logo {
+    margin: 0 25px 0 0;
+    position: relative;
+    top: -45px;
+}
+footer {
+    background: #031323 url(../images/ams-footer-background.jpg) no-repeat 0px 0px;
+     background-size:cover;
+    color: white;
+}
+.information-title {
+    padding: 4% 0%;
+}
+footer h1 {
+    color: white;
+   margin:0px;
+}
+.information {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0%;
+}
+.footer-logo img {
+    width: 200px;
+}
+h5 {
+    font-size: 20px;
+    margin: 0px;
+    color: orange;
+    font-family: 'poppinsRegular';
+}
+footer ul {
+    padding: 0px;
+}
+footer li {
+    list-style: none;
+    padding: 1% 0;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'poppinsLight';
+}
+.copy-right {
+    text-align: center;
+    padding: 0 0 4% 0;
+   
+}
+.copy-right p{
+      font-family:poppinsLight;
+}
+							/*footer ends*/
