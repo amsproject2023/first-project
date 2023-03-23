@@ -1,0 +1,452 @@
+@media screen and (min-width:968px){
+.contant-ams {
+    padding: 20px 30px !important;
+}
+}
+@media screen and (max-width:968px){
+header div {
+    display: block !important;
+}
+.logo-ams {
+ width: 100% !important;
+}
+nav{
+    width: 100% !important;
+}
+.software-career{
+width:100% !important;
+}
+.banner-img {
+    width: 100% !important;
+}
+.ultimate-banner {
+    display: block !important;
+}
+.services-card {
+   display: block !important;
+padding: 25px;
+}
+.services-prodect {
+    width: 100% !important;  
+}
+.services-prodect {
+    margin: 20px 0px !important;
+}
+.footer-contant-ams {
+    display: block !important;  
+}
+.contant-1 {
+    width: 100% !important;
+}
+.contant-2 {
+    width: 33.33% !important;
+}
+.testimonials-para {
+    padding: 55px 0px 0px 50px !important;
+    margin: 30px 0px !important;
+font-size:10px;   
+}
+.testimonials-1img {  
+width:20px !important;
+}
+.testimonials-2img {
+    margin-top: 36px !important;
+}
+}
+@media screen and (max-width:768px){
+.contant-2 {
+    width: 100% !important;
+}
+.software-career h1 {
+  font-size: 30px !important;
+}
+.testimonials-img {
+    padding-right: 25px !important;
+}
+.contant-ams{
+display:block !important;
+}
+}
+@media screen and (max-width:568px){
+nav ul {
+       display: block !important;
+ }
+.banner-section {
+    padding: 5px 0px 50px 0px !important;  
+}
+nav ul{
+ padding:0px !important;
+}
+nav ul li a,.logo-ams{
+ padding:0px 15px!important;
+}
+nav ul li:hover{
+background:#eee;
+}
+.ultimate-banner {
+    padding: 20px;
+}
+nav ul li {
+    padding: 7px 0px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.testimonials-para {
+    
+font-size:5px;   
+}
+}
+
+
+@font-face{
+font-family:Poppins-Bold;
+src:url('../fonts/Poppins-Bold.ttf');
+}
+@font-face{
+font-family:Poppins-Light;
+src:url('../fonts/Poppins-Light.ttf');
+}
+@font-face{
+font-family:Poppins-Medium;
+src:url('../fonts/Poppins-Medium.ttf');
+}
+@font-face{
+font-family:Poppins-Regular;
+src:url('../fonts/Poppins-Regular.ttf');
+}
+
+
+body {
+    background: #fff;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+                                   /*header*/
+header div {
+    display: flex; 
+}
+.logo-ams {
+ width: 50%;
+ box-sizing: border-box;
+}
+nav{
+    width: 50%;
+box-sizing: border-box;
+}
+nav ul {
+    justify-content: end;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+font-family:Poppins-Light;
+}
+nav ul li a:hover{
+color: darkblue;
+}
+
+                                   /*banner-section*/
+.banner-section {
+    padding: 5px 50px 50px 50px;
+    background: linear-gradient(177deg, #bbffffa6, transparent);
+}
+.ultimate-banner {
+    display: flex;
+    justify-content: space-around;
+}
+.software-career{
+width:50%;
+box-sizing: border-box;
+margin: auto;
+
+}
+.banner-img {
+    width: 50%;
+box-sizing: border-box;
+}
+.software-career h1 span {
+    display: block;
+    color:#000 ;
+padding: 10px 0px;
+font-weight: 100;
+font-family:Poppins-Light;
+}
+.software-career h1 {
+    color: orangered;
+font-size: 50px;
+padding: 0px 10px;
+font-family:Poppins-Bold;
+}
+
+                                  /*about-section*/
+.about-heading {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+color: #1d5baa;
+font-family:Poppins-Medium;
+
+}
+section.about-section {
+    width: 60%;
+    margin: auto;
+}
+section.about-section p {
+    color: #998787;
+font-family:Poppins-Light;
+}
+
+
+                                /*services-section*/
+.services-heading {
+ text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+color: #1d5baa;
+font-family:Poppins-Bold;
+}
+.services-card {
+    display: flex;
+    justify-content: space-around;
+}
+.services-prodect img {
+    border-radius: 12px 12px 0px 0px;
+}
+.services-prodect {
+    width: 33.33%;
+    box-sizing: border-box;
+    margin: 0px 30px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+.services-prodect h3 {
+    text-transform: capitalize;
+}
+.services-prodect button {
+    color: #fff;
+    text-transform: capitalize;
+    background: #1d5baa;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+.services-prodect h3,.services-prodect button,.services-prodect p {
+    margin: 10px 20px;
+font-family:Poppins-Light;
+}
+
+
+                               /*featured-section*/
+.featured-heading {
+text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+color: #1d5baa;
+font-family:Poppins-Bold;
+}
+.\33 courses-languages ul {
+    list-style: none;
+padding: 0px;
+}
+.\33 courses-languages ul li a {
+    text-decoration: none;
+    color: #000;
+font-family:Poppins-Light;
+}
+.featured-prodect ul li {
+    padding: 5px 20px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.\33 courses-languages {
+    height: 115px;
+overflow: hidden;
+   
+}
+.\33 courses-languages:hover {
+   height: 115px;
+    overflow: auto;
+}
+
+                              /*testimonials-section*/
+section.testimonials-section {
+    background: url(../images/ams-testimonials-background.jpg) no-repeat;
+    background-size: 100%;
+}
+.testimonials-heading {
+text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+color: #1d5baa;
+font-family:Poppins-Bold;
+}
+.testimonials-carousle {
+    text-align: center;
+    background: url(../images/ams-testimonials-quotes-frame.png)  no-repeat 0px 0px;
+    width: 55%;
+    background-size: 100%;
+    margin: auto;
+    display: flex;
+}
+.testimonials-para {
+    width: 55%;
+    box-sizing: border-box;
+    padding: 65px 0px 0px 64px;
+    margin: 65px 0px;
+    text-align: start;
+font-family:Poppins-Light;
+}
+.testimonials-1img {
+    position: absolute;
+    right: 40%;
+width:32px;
+}
+.testimonials-2img {
+  
+    margin-top: 56px;
+}
+
+.testimonials-img {
+    width: 45%;
+    box-sizing: border-box;
+    padding-right: 55px;
+    position: relative;
+    padding-bottom: 36%;
+}
+.testimonials-img img {
+    display: block;
+    
+}
+.carousle-btns {
+    text-align: center;
+    padding-bottom: 48px;
+}
+.carousle-btns span {
+    width: 20px;
+    height: 20px;
+    background: #eee;
+    border-radius: 100%;
+    display: inline-block;
+}
+.carousle-btns span:hover {
+    
+    background: #000;
+   
+}
+                              /*businessArea-section*/
+.businessArea-heading {
+text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+color: #1d5baa;
+font-family:Poppins-Bold;
+}
+                               /*contactUs-section*/
+
+.contactUs-heading {
+text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+font-family:Poppins-Bold;
+}
+section.contactUs-section {
+    background: #00F url(../images/ams-contact-us-background.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+padding-bottom: 6%;
+}
+.contactUs-form input {
+    display: block;
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin: 45px 0px;
+    width: 100%;
+}
+.contactUs-form {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.contactUs-form form {
+    width: 33.33%;
+}
+.contactUs-form form button {
+    border: none;
+    padding: 10px 45px;
+    border-radius: 18px;
+    text-transform: capitalize;
+    background: orange;
+   color: #000;
+}
+
+                                 /*footerInfo*/
+
+footer.footerInfo {
+    background: #000 url(../images/ams-footer-background.jpg) no-repeat;
+    color: #fff;
+    background-size: cover;
+    padding: 20px 50px;
+
+}
+.footerInfo-heading {
+text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+font-family:Poppins-Bold;
+
+}
+.footer-contant-ams {
+    display: flex;
+    box-sizing: border-box;
+padding: 20px 60px;
+}
+.contant-ams{
+ display: flex;
+    box-sizing: border-box;
+padding: 20px 60px;
+}
+.contant-1 {
+    width: 40%;
+box-sizing: border-box;
+font-family:Poppins-Light;
+}
+.contant-2 {
+    width: 60%;
+box-sizing: border-box;
+}
+.contant-2 h4 {
+    text-transform: capitalize;
+    color: orange;
+   padding-top: 15px;
+font-family:Poppins-Light;
+}
+.contant-2 ul {
+    list-style: none;
+    padding: 0px;
+}
+.contant-2 ul li {
+    padding: 5px 0px;
+}
+.contant-2 ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+font-family:Poppins-Light;
+}
+.footer-copy-rights {
+    text-align: center;
+    font-size: x-large;
+    text-transform: capitalize;
+font-family:Poppins-Light;
+}
+.contant-2, .contant-1 {
+    padding: 0px 30px;
+}
+
+
