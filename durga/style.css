@@ -1,0 +1,371 @@
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family:"nav";
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family:"head" ;
+    src: url("../fonts/Poppins-Light.ttf");
+}
+@font-face {
+    font-family:"text" ;
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family:"font";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+section.navigation {
+    display: flex;
+    
+        padding: 0px 69px;
+    
+    
+}
+.logo {
+    margin: 4px 19px;
+}
+ul.list {
+    text-transform: capitalize;
+    display: flex;
+    gap: 27px;
+    list-style: none;
+    font-size: 22px;
+    margin: 22px 40px;
+    font-family: 'font';
+    color: #666666;
+}
+.ultimate {
+    font-size: 29px;
+    margin: 69px 17px;
+    font-family: "head";
+}
+span.destination {
+    display: block;
+    font-size: 41px;
+   
+    color: #f8861b;
+    font-family: "nav";
+}
+a {
+    text-decoration: none;
+}
+section.banner_section {
+    display: flex;
+  justify-content: space-around;
+}
+/*sec1*/
+
+.about {
+    font-family: 'font';
+    text-align: center;
+    font-size: 32px;
+    color: #2767b4;
+}
+p.ams_content {
+    width: 65%;
+    font-size: 17px;
+   margin-left: 180px; 
+    color: #474747; 
+font-family: "head";
+
+}
+/*sec2*/
+.ser {
+    text-align: center;
+    font-size: 30px;
+    color: #2767b4;
+    line-height: 78px;
+    font-family: 'text';
+}
+.services {
+    display: flex;
+gap:36px;
+padding: 2% 11%;
+}
+.development, .training, .printing {
+    border-radius: 11px;
+    border: 3px solid #e7e7e8;
+    
+}
+h1.software {
+    margin-left: 8%;
+font-size: 25px;
+    font-family: 'head';
+}
+p.lorem {
+    font-size: 15px;
+    margin-left: 8%;
+    font-family: 'text';
+    color: #474747;
+}
+button.Ream {
+    color: #fff;
+    border: none;
+    margin: 14px;
+    border-radius: 4px;
+    padding: 9px 12px;
+    background: #2767b4;
+    font-family: 'nav';
+    font-size: 12px;
+    margin-left: 8%;
+}
+/*sec3*/
+.featured_title {
+    text-align: center;
+    color: #2767b4;
+    font-size: 30px;
+    font-family: 'text';
+    padding: 30px;
+    
+    letter-spacing: 3px;
+    }
+.courses_all {
+    display: flex;
+    gap: 65px;
+    margin: 2% 4%;
+}
+.full_stack, .front-end, .back_end {
+    border: 2px solid #e7e7e8;
+    width: 33.3%;
+    border-radius: 15px;
+} 
+ /*sec4*/
+section.featuredcourses_section {
+    padding: 0px 85px;
+}
+h1.fullstack_title {
+    font-size: 30px;
+    font-family: 'head';
+    margin-left: 19px;
+    text-transform: capitalize;
+}
+p.full_text {
+    font-size: 16px;
+    margin-left: 19px;
+    font-family: 'text';
+    color: #474746;
+}
+li.course {
+    border-bottom: 3px solid;
+    list-style: none;
+    margin: 4px;
+    color: #e7e7e8;
+    font-size: 20px;
+   
+    font-family: 'font';
+    
+}
+ul.full {
+padding:0px;
+}
+.ul_list {
+    overflow: hidden;
+    height: 125px;
+    /* width: 120px; */
+}
+.ul_list:hover {
+    overflow-y: scroll;
+}
+button.more {
+    /* display: flex; */
+    background: blue;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin: 16px;
+    padding: 13px 22px;
+    font-family: 'nav';
+}
+/*sec5*/
+.testimonials_title {
+    text-align: center;
+    font-size: 33px;
+    color: #2767b4;
+    font-family: 'text';
+}
+.test_imgs {
+    background: url("../images/ams-testimonials-quotes-frame.png") no-repeat 240px 0px;
+height: 650px;
+}
+.images {
+    position: absolute;
+    right: 337px;
+    margin: 51px;
+}
+.test_imgs {
+    display: flex;
+    justify-content: center;
+}
+.testimonials {
+    width: 30%;
+    font-size: 20px;
+    margin: auto;
+    padding: 9% 30% 15% 7%;
+    font-family: 'font';
+position:relative;
+}
+span.mohan {
+    display: block;
+    
+    margin: 37px -25px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: 'font';
+}
+span.round {
+    background:#e7e7e8;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 9px;
+}
+.circle {
+    text-align: center;
+}
+.area {
+    text-align: center;
+    font-size: 27px;
+    color: #2767b4;
+    font-family: 'text';
+    letter-spacing: 3px;
+}
+/*sec6*/
+section.contact_section {
+    background: url("../images/ams-contact-us-background.jpg")no-repeat 0px 0px;
+}
+.contact_us {
+    text-align: center;
+    font-size: 33px;
+    color: #fff;
+    font-family: 'text';
+    padding: 8px;
+    /* line-height: 148px; */
+}
+.inputs {
+    text-align: center;
+}
+input[type="name"] {
+    width: 32%;
+    height: 47px;
+    border-radius: 27px;
+    /*padding: 10px 16px;*/
+    border: none;
+    margin: 11px;
+}
+input[type="tel"]{
+ 
+    width:32%;
+    height: 47px;
+    border-radius: 27px;
+
+    border: none;
+margin:14px;
+
+}
+input[type="email"]{
+
+    width: 32%;
+    height:47px;
+    border-radius: 27px;
+border:none;
+margin:11px;
+}
+input[type="name"]::placeholder { 
+color: #e7e7e8;
+    font-size: 20px;
+    padding: 0px 26px;
+
+}
+input[type="email"]::placeholder {
+color: #e7e7e8;
+    font-size: 20px;
+    padding: 0px 26px;
+}
+input[type="tel"]::placeholder {
+    /* color: antiquewhite; */
+    color: #e7e7e8;
+    font-size: 20px;
+    padding: 0px 26px;
+}
+button.submit {
+    border-radius: 26px;
+    width: 13%;
+    height: 45px;
+    margin: 23px;
+    color: #18242c;
+    border: none;
+    background: #f8861b;
+    font-family: 'nav';
+    font-size: 20px;
+}
+/*sec7*/
+section.footer_section {
+background:url("../images/ams-footer-background.jpg")no-repeat 0px 0px;
+/*padding:120px;*/
+}
+p.text {
+    color: #e7e7e8;
+    font-size: 18px;
+    font-family: 'font';
+}
+a.link {
+    color: #e7e7e8;
+    
+    font-family: 'head';
+}
+.information_title {
+    text-align: center;
+    font-size: 25px;
+    color: #e7e7e8;
+    font-size: 39px;
+    font-family: 'font';
+        padding: 41px;
+}
+.footer_content {
+    display: flex;
+}
+.navigate.Site {
+    width: 20%;
+    color: #f8861b;
+    font-family: 'head';
+    font-size: 21px;
+    
+    margin: 64px;
+}
+.policiess {
+    width: 20%;
+    color: #f8861b;
+    margin: 50px;
+    
+    font-size: 16px;
+    
+}
+h3 {
+    font-family: 'font';
+    font-size: 23px;
+}
+.social {
+    margin: 37px;
+    color: #f8861b;
+    width: 20%;
+    line-height: 58px;
+    /* font-family: 'nav'; */
+}
+.footer_image {
+    width: 40%;
+    margin:7%;
+}
+ul {
+    list-style: none;
+}
+.all_copy {
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'head';
+}

@@ -1,5 +1,5 @@
-Main Color: #2767b4
-Text Color1: #f8861b
+Main Color: #2767b4 blue
+Text Color1: #f8861b orange
 Text Color2: #18242c
 Text Color3:#666666
 Text Color4:#474747
