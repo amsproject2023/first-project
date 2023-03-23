@@ -1,0 +1,190 @@
+@media screen and (min-width:576px){
+.header, .banner-section, nav ul, .services-baner, .feature-banner, .footer-content{
+    display: flex;
+flex-direction: column;
+}
+.logo-paras,.development, .training, .priniting, .full-stack, .front-end, .back-end,.ams-logo,.rounds {
+    width: 93%;
+}
+.contact-details {
+margin:0px auto;
+    width: 90%;
+}
+.test-para {
+    padding-top: 87px;
+}
+.rounds {
+    text-align: end;
+}
+.testimonal-content {
+    width: 82%;
+}
+.development, .training, .priniting, .full-stack, .front-end, .back-end {
+    margin: 7px 20px;
+}
+.ams-logo,nav ul,.baner-content h1{
+    text-align: center;
+
+}
+nav ul {
+    gap: 9px;
+}
+.baner-content h1 {
+    font-size: 24px;
+}
+.destination {
+    font-size: 20px;
+}
+}
+@media screen and (min-width:768px){
+.header, .banner-section, nav ul, .services-baner, .feature-banner, .footer-content{
+    display: flex;
+flex-direction: column;
+}
+.logo-paras,.about-section,.development, .training, .priniting, .full-stack, .front-end, .back-end,.ams-logo,.rounds {
+    width: 95%;
+}
+.test-para {
+    padding-top: 98px;
+}
+.contact-details {
+margin:0px auto;
+    width: 96%;
+}
+.rounds {
+    text-align: end;
+}
+.testimonal-content {
+    width: 82%;
+height: 591px;
+}
+.development, .training, .priniting, .full-stack, .front-end, .back-end {
+    margin: 7px 20px;
+}
+.ams-logo,nav ul,.baner-content h1{
+    text-align: center;
+
+}
+nav ul {
+    gap: 9px;
+}
+.baner-content h1 {
+    font-size: 24px;
+}
+.destination {
+    font-size: 20px;
+}
+nav ul li a {
+    font-size: 16px;
+}
+}
+@media screen and (min-width:992px){
+.header,.banner-section,nav ul,.services-baner,.feature-banner,.footer-content {
+    display: flex;
+flex-direction: row;
+}
+.header, .banner-section, .services-baner, .feature-banner {
+    width: 95%;
+
+}
+.baner-content h1 {
+    font-size: 30px;
+text-align: start;
+}
+.development, .training, .priniting, .full-stack, .front-end, .back-end {
+    width: 33.33%;
+}
+.about-section {
+    margin: 0px auto;
+}
+ .about-section, .development, .training, .priniting, .full-stack, .front-end, .back-end, .ams-logo, .rounds {
+    width: 80%;
+}
+.rounds {
+    text-align: end;
+}
+.contact-details {
+margin:0px auto;
+    width: 87%;
+}
+.logo-paras{
+width: 25%;
+}
+nav ul li a {
+    font-size: 14px;
+}
+nav ul {
+    gap: 10px;
+}
+.test-para {
+    width: 67%;
+padding-top:88px;
+}
+.test-img {
+ padding-top: 44px;
+}
+.testimonal-content {
+    width: 52%;
+    background-size: cover;
+    height: 496px;
+}
+}
+@media screen and (min-width:1200px){
+ nav ul {
+    gap: 32px;
+}
+nav ul li a{
+    font-size: 21px;
+}
+.about-section {
+    width: 45%;
+    margin: 55px auto;
+}
+.header,.banner-section,.services-baner,.feature-banner {
+    width: 76%;
+    margin: 0px auto;
+}
+.destination {
+    font-size: 46px;
+}
+.baner-content h1 {
+    font-size: 49px;
+}
+.baner-content,.baner-imgs{
+    width: 50%;
+} 
+nav{
+width: 70%;
+}
+.ams-logo{
+  width: 30%;
+}
+.ams-logo, nav ul, .baner-content h1 {
+    text-align: start;
+}
+.contact-details {
+    width: 26%;
+    margin: 54px auto;
+}
+.input-mail {
+    margin: 25px 0px;
+}
+.test-para {
+    width: 67%;
+padding-top:88px;
+}
+
+.testimonal-content {
+    background:url('../images/ams-testimonials-quotes-frame.png') no-repeat 0px 0px;
+    width: 37%;
+    margin: -40px auto;
+   padding: 0px 39px 0px 54px;
+background-size: cover;
+height: 481px;
+}
+.rounds {
+    width: 31%;
+    margin: 75px auto;
+    text-align: end;
+}
+}

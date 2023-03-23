@@ -1,6 +1,6 @@
-Main Color: #2767b4
-Text Color1: #f8861b
-Text Color2: #18242c
+Main Color: #2767b4 blue
+Text Color1: #f8861b   orange
+Text Color2: #18242c  black
 Text Color3:#666666
-Text Color4:#474747
-Text Color5:#e7e7e8
+Text Color4:#474747  nav color
+Text Color5:#e7e7e8 border-colr

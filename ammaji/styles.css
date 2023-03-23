@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header,.banner-section,nav ul,.services-baner,.feature-banner,.footer-content {
+    display: flex;
+}
+
+nav ul li a,.coursesss ul li a,.stack-para,.frontimg-para,.backimg-para,.services-baner{
+color: #474747;
+}
+ nav ul,.navigate ul,.policies ul,.media ul,.coursesss ul{
+list-style:none;
+}
+nav ul li a{
+font-family:Poppins-light;
+}
+.navigate ul li a,.policies ul li a,.media ul li a {
+  color: #fff;
+    font-size: 17px;
+font-family:Poppins-light;
+}
+.navigate ul li a,.policies ul li a,.media ul li a,nav ul li a,.coursesss ul li a{
+    text-decoration: none;
+}
+.services-section,.feature-section,.testimonal-section {
+    padding-bottom: 80px;
+}
+.copy-rights,.information h1,.contact-section,.area h1,.testimonal h1,.about h1,.services h1,.feature-courses h1 {
+    text-align: center;
+margin: 0px;
+font-family:Poppins-medium;
+}
+
+.area h1,.testimonal h1,.about h1,.services h1,.feature-courses h1{
+color: #2767b4;
+font-size:38px;
+padding-bottom: 30px;
+}
+.information h1,.contact-section{
+color:#fff;
+font-size:38px;
+
+}
+.about-section {
+font-family:Poppins-light;
+}
+/*.nav-section {
+    background: linear-gradient(184deg, #b6f9dd, #f3f6f7,#fff);
+}*/
+
+
+.destination {
+    display: block;
+    color: darkorange;
+font-family:Poppins-bold;
+}
+.baner-content h1 {
+font-family:Poppins-light;
+font-weight: 100;
+}
+.development-content,.training-content,.priniting-content {
+    padding: 12px 23px 0px;
+}
+.development-content h2,.training-content h2,.priniting-content h2 {
+    margin-bottom: -8px;
+font-family:Poppins-regular;
+font-size: 20px;
+}
+
+.development-content p,.training-content p,.priniting-content p {
+    margin-bottom: 29px;
+font-family:poppins-light;
+}
+.development, .training, .priniting, .full-stack, .front-end, .back-end {
+    width: 33.33%;
+    border: 1px solid #e7e7e8;
+    margin: 0px 20px;
+    padding-bottom: 20px;
+border-radius: 6px;
+
+}
+.development-content button,.training-content button,.priniting-content button,.course-button button {
+    background: #2767b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 21px;
+font-family:Poppins-medium;
+}
+
+.contact-section {
+    background: url('../images/ams-contact-us-background.jpg') no-repeat 0px 0px;
+    padding: 1px 0px 34px;
+background-size: cover;
+}
+
+#names, #mail, #number {
+    width: 100%;
+    border-radius: 100px;
+    padding: 15px 0px 15px 14px;
+    border: none;
+    outline: none;
+}
+.button button {
+    background: #f8861b;
+    padding: 12px 50px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 32px;
+font-family:Poppins-medium;
+color:#18242c;
+}
+.test-img {
+ padding-top: 44px;
+position: relative;
+}
+img.holder {
+    right: 62px;
+    position: absolute;
+    top: -8px;
+}
+
+.test-tot {
+    display: flex;
+}
+.testimonal-content {
+    background:url('../images/ams-testimonials-quotes-frame.png') no-repeat 0px 0px;
+    width: 37%;
+    margin: -40px auto;
+   padding: 0px 39px 0px 54px;
+background-size: cover;
+height: 481px;
+}
+.testimonal-section{
+background:url('../images/ams-testimonials-background.jpg') no-repeat 0px 0px;
+background-size: cover;
+font-family:Poppins-light;
+color:#18242c;
+}
+.round {
+    height: 15px;
+    width: 15px;
+    background: #afa5a5;
+    display: inline-block;
+    border-radius: 100%;
+margin-right: 6px;
+}
+
+.name {
+    text-align: right;
+}
+.footer-content {
+    width: 95%;
+   margin: 26px auto 74px;
+justify-content: space-evenly;
+}
+.logo-paras {
+    width: 25%;
+font-family:Poppins-regular;
+}
+.navigate ul,.policies ul,.media ul,.coursesss ul {
+    padding-left: 0px;
+}
+.intern{
+padding: 10px 15px;
+font-family:Poppins-medium;
+}
+.course-button button {
+    margin: 17px 19px 0px;
+}
+.stack-para,.frontimg-para,.backimg-para{
+    padding: 10px 17px;
+font-family:Poppins-light;
+}
+.courses-list {
+    border: 1px solid #e7e7e8;
+    border-right: hidden;
+    border-left: hidden;
+padding: 10px 15px;
+font-family:Poppins-medium;
+}
+.navigate h3,.policies h3,.media h3{
+color:#f8861b;
+margin: 55px 0px 25px;
+font-family:Poppins-light;
+
+}
+.footer-section {
+    background:url('../images/ams-footer-background.jpg') no-repeat 0px 0px;
+color: #fff;
+padding: 35px 0px 49px;
+background-size: cover;
+}
+.coursesss {
+    overflow: hidden;
+    height: 144px;
+}
+.coursesss:hover {
+    overflow-y: scroll;
+}
+
+@font-face{
+font-family:Poppins-Bold;
+src:url('../fonts/Poppins-Bold.ttf');
+}
+@font-face{
+font-family:Poppins-light;
+src:url('../fonts/Poppins-Light.ttf');
+}
+@font-face{
+font-family:Poppins-medium;
+src:url('../fonts/Poppins-Medium.ttf');
+}
+@font-face{
+font-family:Poppins-regular;
+src:url('../fonts/Poppins-Regular.ttf');
+}
