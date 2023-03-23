@@ -1,0 +1,442 @@
+@font-face {
+  font-family: pbold;
+  src: url('../fonts/poppins-Bold.ttf');
+}
+@font-face {
+  font-family: plight;
+  src: url('../fonts/poppins-Light.ttf');
+}
+@font-face {
+  font-family: pmedium;
+  src: url('../fonts/poppins-Medium.ttf');
+}
+@font-face {
+  font-family: pregular;
+  src: url('../fonts/poppins-Regular.ttf');
+}
+
+
+
+body{
+padding:0px;
+margin:0px;
+box-sizing: border-box;
+}
+section.section_head {
+    background: linear-gradient(181deg, #45fcf07d,#fff, transparent);
+}
+
+                                   /*HEADER SECTION*/
+header {
+    display: flex;
+    padding-top: 20px;
+}
+header li {
+    display: inline-block;
+    text-transform: capitalize;
+}
+header a {
+    text-decoration: none;
+    color:#18242c;
+    font-family: pregular;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+nav {
+    width: 50%;
+box-sizing: border-box;
+}
+.logo {
+    width: 50%;
+box-sizing: border-box;
+    text-align: center;
+}
+                                   /*BANNER SECTION*/
+.banner_left h1 {
+    color: #18242c;
+    font-family: 'plight';
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.banner_left {
+    padding: 80px;
+   
+}
+.banner_left span {
+    display: block;
+    color: #f8861b;
+    font-family: 'pmedium';
+    text-transform: none;
+}
+.banner_left span {
+    display: block;
+    color: orange;
+}
+.banner_tot {
+    display: flex;
+    padding:40px;
+}
+.banner_left,.banner_right {
+    width: 50%;
+box-sizing: border-box;
+}
+                                      /*ABOUT US*/
+.about_tot {
+    text-align: center;
+}
+
+.about_us_sec h1 {
+    text-transform: capitalize;
+     color: #2767b4;
+    font-family:system-ui;
+    font-size: 44px;
+    text-align: center;
+}
+p.about_para1, .about_para2 {
+    width: 68%;
+    display: inline-block;
+    font-family: 'plight';
+    color: #18242c;
+    text-align: start;
+}
+                                      /*SERVICES*/
+
+section.services_sec {
+    padding: 80px;
+}
+.services_sec h1 {
+    text-transform: capitalize;
+    color: #2767b4;
+    font-family: system-ui;
+    font-size: 44px;
+    text-align: center;
+}
+.services_tot {
+    box-sizing: border-box;
+    display: flex;
+}
+.services_development {
+    width: 33.33%;
+    border: 2px solid  #666666;
+    border-radius: 3%;
+    margin-right: 50px;
+box-sizing: border-box;
+}
+
+.services_development img {
+    border-radius: 12px 12px 0px 0px;
+}
+.services_content {
+    padding: 12px;
+}
+.services_content h2 {
+    text-transform: capitalize;
+    font-family: 'pmedium';
+    color: #18242c;
+    line-height: 0px;
+}
+.services_content {
+    padding: 12px;
+}
+.services_content button {
+    background-color: blue;
+  color: #e7e7e8;
+    text-transform: capitalize;
+    font-family: 'pmedium';
+    border-radius: 5px;
+    padding: 6px 20px;
+    border: none;
+}
+.services_content p {
+    font-family: 'pmedium';
+    color: #18242c;
+}
+
+
+
+
+                                      /*Featured courses*/
+
+.featured_sec h1 {
+    text-transform: capitalize;
+  color: #2767b4;
+    font-family: system-ui;
+    font-size: 44px;
+    text-align: center;
+}
+.featured_tot {
+    display: flex;
+
+}
+.featured_fullstack{
+    width: 33.33%;
+    border: 2px solid  #666666;
+    border-radius: 3%;
+    margin-right: 65px;
+box-sizing: border-box;
+}
+.featured_tot ul {
+    list-style: none;
+    padding: 0px;
+}
+.featured_tot a {
+    text-decoration: none;
+    color: #18242c;
+    text-transform: capitalize;
+}
+.featured_tot h2{
+    text-transform: capitalize;
+}
+section.featured_sec {
+    padding: 80px;
+}
+
+
+.featured_list {
+    overflow: hidden;
+    height: 155px;
+}
+.featured_list:hover {
+    overflow-y: scroll;
+}
+.featured_fullstack img{ 
+ border-radius: 12px 12px 0px 0px;
+
+}
+.featured_content {
+  padding: 12px;
+}
+
+.featured_content p {
+    font-family: 'pmedium';
+    color: #18242c;
+}
+.featured_tot h2 {
+    text-transform: capitalize;
+    color: #18242c;
+    font-family: 'pmedium';
+    line-height: 0px;
+}
+
+
+li.fea_bor_b {
+ border-bottom: 2px solid #666666 !important;
+}
+li.fea_bord_t {
+    border-top: 2px solid #666666 !important;
+}
+   
+
+.featured_tot li {
+    border-bottom: 1px solid #666666;
+    border-top: 1px solid #666666;
+    padding: 8px 25px;
+    font-family: 'pmedium';
+}
+
+.featured_fullstack button {
+    background-color: blue;
+   color: #e7e7e8;
+    text-transform: capitalize;
+    font-family: 'pmedium';
+    border-radius: 5px;
+    padding: 6px 20px;
+    border: none;
+    margin: 10px 25px;
+}
+                                                  /*TESTIMONIALS*/
+
+.testimonials_card {
+    text-align: center;
+}
+
+section.testimonials_sec h1 {
+    text-transform: capitalize;
+    color: #2767b4;
+    font-family: 'pregular';
+    font-size: 44px;
+    text-align: center;
+}
+
+.testimonials_para ,.testimonials_img {
+    width: 50%;
+box-sizing: border-box;
+}
+.testimonials_btns span {
+    width: 15px;
+    height: 15px;
+    background: #0000005c;
+    display: inline-block;
+    border-radius: 100%;
+}
+.testimonials_btns {
+    text-align: center;
+}
+.testimonials_card {
+    background: url('../images/ams-testimonials-quotes-frame.png') no-repeat;
+   background-size:100%;
+    width: 54%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 17%;
+}
+.testimonials_para, .testimonials_img {
+    width: 50%;
+    box-sizing: border-box;
+    
+}
+
+.testimonials_para {
+    padding-top: 18%;
+    padding-left: 8%;
+    text-align: start;
+    font-family: 'pregular';
+    font-size: 18px;
+}
+.testimonials_img h4 {
+    text-transform: capitalize;
+    font-family: 'pregular';
+    padding-top: 30px;
+    color: #18242c;
+}
+.na_img img {
+    margin-top: 13%;
+}
+.pin img {
+    position: absolute;
+}
+
+section.testimonials_sec {
+    background: url('../images/ams-testimonials-background.jpg') no-repeat;
+background-size:100%;
+}
+
+
+
+                                                  /*BUSINESS AREA*/
+
+
+section.business_sec h1 {
+    text-transform: capitalize;
+    color: #2767b4;
+    font-family: 'pregular';
+    font-size: 44px;
+    text-align: center;
+}
+                                                  /*INPUTS*/
+
+section.inputs_sec {
+    text-align: center;
+}
+.inputs_tot {
+    padding: 1px;
+}
+.inputs_steps input {
+    border-radius: 30px;
+    height: 50px;
+    width: 27%;
+    border: none;
+    padding: 0px 28px;
+    font-family: 'pmedium';
+    color: #666666;
+}
+.inputs_steps {
+    margin: 38px 0px;
+}
+.inputs_tot button {
+    color: #18242c;
+    background-color: #f8861b;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 55px;
+    font-family: pbold;
+    text-transform: capitalize;
+}
+
+section.inputs_sec {
+    padding: 80px;
+    background: url('../images/ams-contact-us-background.jpg') no-repeat;
+    background-size: 100%;
+}
+section.inputs_sec h1 {
+    color: #e7e7e8;
+    font-family: 'pregular';
+    font-size: 40px;
+}
+                         /*FOOTER*/
+
+
+.sec8_row {
+    display: flex;
+}
+.footer_col-1 {
+    width: 40%;
+box-sizing: border-box;
+}
+.footer_col-2 {
+    width: 20%;
+box-sizing: border-box;
+}
+.footer_col-3 {
+    width: 20%;
+box-sizing: border-box;
+}
+.footer_col-4 {
+    width: 20%;
+box-sizing: border-box;
+}
+section.footer_sec h1 {
+   color: #e7e7e8;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 35px;
+    padding: 35px;
+    margin: 0px;
+    font-family: 'pregular';
+}
+
+.sec8_row h3 {
+    color: #f8861b;
+    padding: 0px 37px;
+    text-transform: capitalize;
+    font-family: 'pregular';
+}
+.sec8_row ul {
+    list-style: none;
+}
+
+.footer_rights {
+    text-align: center;
+    color: #e7e7e8;
+    padding: 50px 0px;
+    font-family: 'plight';
+}
+.footer_tot {
+    padding: 80px;
+}
+.sec8_row  a {
+    font-family: 'plight';
+    text-transform: capitalize;
+   text-decoration:none;
+    color: #e7e7e8;
+
+}
+.sec8_row p {
+    font-family: system-ui;
+}
+
+.footer_col-1 p {
+    width: 60%;
+    font-family: 'plight';
+    color: #e7e7e8;
+}
+section.footer_sec {
+    
+    background: url('../images/ams-footer-background.jpg') no-repeat;
+    background-size:100%;
+}
+
+
