@@ -1,0 +1,317 @@
+/* header*/
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+font-family:light;
+src:url('../fonts/Poppins-Light.ttf')
+}
+
+@font-face{
+font-family:bold;
+src:url('../fonts/Poppins-Bold.ttf')
+}
+header.header-section {
+    padding: 10px 70px;
+}
+
+.nav-section {
+    display: flex;
+}
+.logo {
+    width: 30%;
+}
+nav.navbar {
+    width: 70%;
+}
+.uls a {
+    font-size: 28px;
+    font-family: 'light';
+     color: #474747;
+}
+ul.uls {
+    display: flex;
+ color: #474747;
+    font-family: light;
+    list-style: none;
+font-size:30px;
+    gap: 60px;
+    text-transform: uppercase;
+    
+}
+a {
+    text-decoration: none;
+}
+section.section1-ultimate {
+    display: flex;
+     padding: 0px 55px;
+}
+span.destination {
+    display: block;
+    font-size: 60px;
+    color: #ff9100f5;
+    font-family: bold;
+}
+/* section2*/
+
+.ultimate h1 {
+    font-size: 50px;
+    font-family: 'light';
+}
+.ultimate, .banner-image {
+    width: 50%;
+    padding: 0px 60px;
+}
+
+.about p {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.about h1 {
+    text-align: center;
+    font-size: 90px;
+ font-family: bold;
+color:#2767b4;
+}
+/* section3*/
+section.section3-services {
+    padding: 60px;
+}
+
+.section3-services h1 {
+    text-align: center;
+    font-size: 90px;
+font-family: bold;
+color:#2767b4;
+}
+.img1 {
+    padding: 5px 20px;
+}
+.services {
+    display: flex;
+     gap: 20px;
+}
+.div1 {
+    width: 33.3%;
+    border: 1px solid;
+}
+.div1 h3 {
+    font-size: 20px;
+    font-family: 'bold';
+    line-height: 0px;
+   color: #474747;
+}
+.sec4-div1 h3 {
+    font-family: 'light';
+    font-size: 25px;
+    line-height: 0px;
+    padding: 1px 20px;
+}
+.sec4-div1 p {
+    padding: 0px 22px;
+}
+.div1 button {
+    background: blue;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 9px;
+    border-radius: 6px;
+    border:none;
+}
+
+/*section4*/
+.section4-featured h1 {
+    text-align: center;
+    font-size: 90px;
+font-family: bold;
+color:#2767b4;
+}
+
+.featured {
+    display: flex;
+    gap: 20px;
+}
+
+.sec4-div1 {
+    width: 33.3%;
+}
+section.section4-featured {
+    padding: 60px;
+}
+.sec4-div1 {
+    width: 33.3%;
+    border: 1px solid;
+}
+.sec4-div1 ul {
+    padding: 0px;
+   
+}
+.sec4-div1 li {
+    list-style: none;
+    padding: 8px 20px;
+    border-bottom: 1px solid;
+}
+.sec4-div1 button {
+    background: blue;
+    color: #fff;
+    border: none;
+    margin: 25px;
+    padding: 10px 17px;
+    border-radius: 5px;
+}
+.uls-lis:hover {
+    overflow-y: scroll;
+}
+.uls-lis{
+ overflow:hidden;
+    height: 142px;
+    font-family: 'light';
+}
+/*section5*/
+.content {
+    background: url('../images/ams-testimonials-quotes-frame.png') no-repeat 0px 0px ;
+    background-size: cover;
+    height: 40pc;
+    width: 50%;
+    margin: auto;
+   display: flex;
+}
+section.section5-testmonals {
+    background: url('../images/ams-testimonials-background.jpg') no-repeat 0px 0px;
+    background-size: cover;
+  
+}
+.nandita-img {
+    width: 50%;
+    padding: 60px 0px;
+}
+.para-img {
+    width: 50%;
+   padding: 9pc 4pc;
+}
+
+.nandita {
+    font-size: 30px;
+}
+.testmonals {
+    text-align: center;
+}
+
+.rounds {
+    text-align: center;
+}
+.testmonals h1 {
+    font-size: 90px;
+font-family: bold;
+color:#2767b4;
+}
+span.round {
+    background: gray;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    border-radius: 100%;
+   
+}
+/*section6*/
+
+.section6-our h1 {
+    text-align: center;
+    font-size: 90px;
+font-family: bold;
+color:#2767b4;
+
+}
+/*section7*/
+
+.section7-inputs h1 {
+    font-size: 90px;
+font-family: bold;
+color:#fff;
+}
+section.section7-inputs {
+    text-align: center;
+    background: url('../images/ams-contact-us-background.jpg') no-repeat 0px 0px;
+    background-size: cover;
+    height: 35pc;
+}
+
+input {
+    margin: 20px;
+    border-radius: 28px;
+    padding: 18px;
+    width: 25%;
+}
+.inputs button {
+    background: orange;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 21px;
+    font-size: 21px;
+    width: 10%;
+}
+/*section8*/
+section.section8-information {
+    background: url('../images/ams-footer-background.jpg') no-repeat 0px 0px;
+    padding: 1px;
+    background-size: cover;
+}
+.section8-information h1 {
+    font-size: 90px;
+    text-align: center;
+   font-family: bold;
+   color:#fff;
+  
+}
+
+.sec6-ams {
+    width: 40%;
+}
+.footer-section {
+    display: flex;
+    padding: 70px;
+}
+.navigate {
+    width: 20%;
+}
+.policy {
+    width: 20%;
+}
+.social {
+    width: 20%;
+}
+li {
+    list-style: none;
+}
+ul {
+    padding: 0px;
+}
+.all-copy {
+    text-align: center;
+    margin-top: 51px;
+    font-size: 20px;
+    color:#fff;
+}
+h2.footer-color {
+    color: #f8861b;
+ font-family:bold;
+font-size:25px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'light';
+}
+.sec6-ams p {
+    color: #fff;
+    width: 55%;
+}
+p {
+    font-family: 'light';
+}
