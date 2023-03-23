@@ -1,0 +1,267 @@
+@font-face{
+font-family:'bold';
+src:url('../fonts/Poppins-Bold.ttf');
+}
+@font-face{
+font-family:'light';
+src:url('../fonts/Poppins-Light.ttf');
+}
+@font-face{
+font-family:'medium';
+src:url('../fonts/Poppins-Medium.ttf');
+}
+@font-face{
+font-family:'regular;
+src:url('../fonts/Poppins-Regular.ttf');
+}
+
+
+h1{
+font-size:2.5rem;
+font-family:'light';
+color:#474747;
+line-height: 3rem;
+}
+h2{
+font-size:2rem;
+text-align: center;
+color:#2767b4;
+font-family:'light';
+}
+h4 {
+    line-height: 0px;
+font-family:'light';
+}
+ul{
+list-style: none;
+}
+a{
+ text-decoration: none;
+ color: #0a0c0e;}
+
+                       /*HEADER SECTION START*/
+header,section ,footer{
+    padding: 0% 8%;
+}
+                
+.header-section,.banner-section,.aboutus-section,.services-content,.featured-content,.profiles{
+display:flex;
+}
+.logo{
+width:20%;}
+                            
+.nav-section {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.nav-section ul {
+    display: flex;
+    gap: 33px;
+    font-size: 16px;
+font-family:'light';
+}
+.nav-section a:hover{
+color:red;}
+                     /*HEADER SECTION END*/
+
+                  /* BANNER SECTION START */
+section.banner-section {
+    margin-top: -3%;
+}
+.banner-title h1 span {
+    display: block;
+ color: #f8861b;
+font-family:'bold';
+}
+.banner-title,.banner-img {
+    width: 50%;
+}
+.banner-title {
+    margin-top: 9%;
+}
+                 /* BANNER SECTION END*/
+
+             /*ABOUTUS SECTION START */
+.about-content{
+padding:0% 16%;
+}
+.about-content p {
+    color: #666666;
+font-size: 18px;
+}
+                /*ABOUTUS SECTION END */
+
+                   /*SERVICES SECTION START */
+.service,.course {
+    border: 1px solid #d8d8d8;
+    margin: 0px 20px 0px 20px;
+    /*padding: 0px 20px 28px 20px;*/
+}
+.service-content{
+padding: 0px 20px 28px 20px;
+}
+.services-content button, .featured-content button {
+    background: #005bea;
+    border: none;
+    color: #fff;
+    padding: 9px 24px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+                     /*SERVICES SECTION END */
+
+                       /*FEATURED COURSES SECTION START */
+.featured-content ul {
+    overflow: hidden;
+    height: 114px;
+border-top: 1px solid #d7d7d7;
+}
+.featured-content h4,.featured-content p,.featured-content a{
+padding-left:20px!important;}
+
+.course,.featured-content ul{
+padding:0!important;
+}
+.featured-content ul:hover {
+    overflow-y: scroll;
+}
+.featured-content ul li {
+    border-bottom: 1px solid #999999;
+padding: 9px 4px;
+
+}
+.featured-content ul li a,.featured-content p{
+color:#666666;
+}
+.featured-content button{
+margin-left:20px;
+margin-bottom:20px;
+font-size: 12px;}
+                         /*FEATURED COURSES SECTION END */
+
+                       /*TESTIMONIALS SECTION START */
+
+.testimonials-section{
+background:url('../images/ams-testimonials-background.jpg') no-repeat 0px 0px;
+background-size:cover;
+margin: 100px 0px;
+color: #474747;
+}
+.profiles {
+    margin: 0% 17%;
+padding:0px 25px;
+background:url('../images/ams-testimonials-quotes-frame.png') no-repeat 0px 0px;
+background-size:cover;
+height:38pc;
+justify-content:center;
+margin-top: 83px;
+}
+.profile-contant {
+    width: 50%;
+margin-top: 20%;
+}
+.nandithapic-pin {
+    margin-bottom: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -56px;
+}
+.nanditha-img {
+    margin-top: -41px;
+}
+.nanditha-img h5 {
+    text-align: center;
+    font-size: 19px;
+}
+.testimonials-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: -2% 18%;
+}
+span.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: #beb7b7;
+}
+                   /*TESTIMONIALS SECTION END */
+
+                     /*CONTACTUS SECTION START */
+.contactus-section{
+background:url('../images/ams-contact-us-background.jpg') no-repeat 0px 0px;
+background-size:cover;
+padding: 8% 0%;
+}
+.contactus-section h2{
+color:#fff;
+margin-top:10px;
+}
+.contactus-inputs{
+text-align:center;
+}
+.contactus-inputs input {
+    width: 35%;
+    border-radius: 30px;
+    padding: 13px 9px;
+    margin: 14px 0px;
+}
+.contactus-btn button {
+    background-color: #fba43d;
+    padding: 10px 42px;
+    border-radius: 20px;
+    border: none;
+color:#070402;
+font-weight:bold;
+margin-top: 33px;
+}
+                      /*CONTACTUS SECTION END */
+
+                      /*FOOTER SECTION START */
+footer{
+background-color: #051525;
+color:#fff;
+padding: 3% 8%;
+}
+footer h2{
+color:#fff;
+}
+.footer-content {
+    display: flex;
+}
+.footer-content h5 {
+    font-size: 17px;
+    color: #f29f3c;
+margin-bottom: 71px;
+font-family: 'light';
+}
+.footer-content ul{
+padding:0;
+}
+.footer-logo {
+    width: 40%!important;
+    margin-right: 4pc;
+}
+footer a, footer p {
+    color: #c8c8ca;
+    font-family: 'light';
+    font-size: 13px;
+}
+.link{
+width:25%;}
+
+.copyright {
+    text-align: center;
+    margin-top: 8%;
+}
+                     /*FOOTER SECTION END */
+
+
+
+
+
+
+

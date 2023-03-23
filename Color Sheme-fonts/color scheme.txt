@@ -1,6 +1,6 @@
-Main Color: #2767b4
-Text Color1: #f8861b
-Text Color2: #18242c
-Text Color3:#666666
-Text Color4:#474747
-Text Color5:#e7e7e8
+Main Color: #2767b4-h2
+Text Color1: #f8861b-h1span
+Text Color2: #18242c-h1black
+Text Color3:#666666-lightgray
+Text Color4:#474747-nadithalight
+Text Color5:#e7e7e8-lightgray
