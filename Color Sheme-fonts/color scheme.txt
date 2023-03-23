@@ -1,6 +1,6 @@
-Main Color: #2767b4
-Text Color1: #f8861b
-Text Color2: #18242c
-Text Color3:#666666
-Text Color4:#474747
-Text Color5:#e7e7e8
+Main Color:  #2767b4     buttons
+Text Color1: #f8861b    banner h1
+Text Color2: #18242c    banner h1
+Text Color3: #666666	nav ul
+Text Color4: #474747	text color
+Text Color5: #e7e7e8	span 
