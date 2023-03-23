@@ -1,0 +1,239 @@
+section.logo.image
+ {
+    display: flex;
+}
+h1.ultimate {
+    font-size: 40px;
+    text-align: left;
+}
+input.name {
+    font-size: 40px;
+}
+section.logo.image {
+    background: azure;
+}
+input.email {
+    font-size: 40px;
+}
+h6.social {
+    color: orange;
+    color: #;
+}
+ul.home {
+    font-family: poppins;
+}
+.featured-title {
+    padding: 50px;
+}
+h4.site {
+    color: orange;
+}
+.profiles {
+    justify-content: center;
+    padding: 86px 90px 86px 90px;
+    display: flex;
+    width: 40%;
+    text-align: center;
+}
+button.submit {
+    font-size: 40px;
+}
+.banner-image {
+    background: url('./images/ams-banner-background.png');
+}
+section.about-us {
+    padding: 50px;
+}
+.us {
+    text-align: center;
+    font-size: 40px;
+}
+    
+ul.home {
+    gap: 50px;
+    display: flex;
+}
+ul.home {
+    display: flex;
+    gap: 50px;
+}
+.banner {
+    display: flex;
+    text-align: right;
+}
+footer {
+    background: url('./images/ams-footer-background.jpg');
+}
+
+.us {
+    text-align: center;
+}
+ 
+
+
+.services-title {
+    text-align: center;
+    font-size: 40px;
+}
+.services {
+    display: flex;
+    ;
+}
+.development {
+    border: 1px solid #000;
+    margin: 10px;
+}
+.training {
+    margin: 10px;
+    boder: 1px solid #000;
+    border: 1px solid #000;
+}
+.printing {
+    border: 1px solid #000;
+    margin: 10px;
+}
+button {
+    background: blue;
+    color: white;
+}
+.featured-title {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+}
+.full-stack {
+    display: flex;
+}
+section.services-section {
+    padding: 50px;
+}
+.stack {
+    border: 1px solid#000;
+    margin: 10px;
+}
+.front-.end {
+    border: 1px solid #000;
+    margin: 10px;
+}
+.backend {
+    border: 1px solid#000;
+    margin: 10px;
+}
+li.course {
+    border: 1px solid#000;
+}
+li.internship {
+    border: 1px solid#000;
+}
+li.career {
+    border: 1px solid#000;
+}
+.testimonial {
+    text-align: center;
+}
+.business-title {
+    font-size: 40px;
+    text-align: center;
+}
+.contact-us {
+    text-align: center;
+}
+.contact-us {
+    font-size: 40px;
+    text-align: center;
+}
+.profiles {
+    background: url('./images/ams-testimonials-quotes-frame.png');
+}
+
+  input.tel {
+    font-size: 40px;
+}
+ 
+}
+input.email {
+    display: block;
+    text-align: center;
+}
+
+}
+button.submit {
+    color: black;
+    background: yellow;
+}
+section.contact-section\' {
+    background: darkblue;
+}
+.your-name {
+    text-align: center;
+}
+.information-title {
+    text-align: center;
+    font-size: 40px;
+}
+footer {
+    background: black;
+}
+.information {
+    color: white;
+    display: flex;
+}
+.information-title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.para {
+    width: 40%;
+}
+.navigation {
+    width: 20%;
+}
+.profiles {
+    display: flex;
+    width: 40%;
+    text-align: center;
+}
+.your-name {
+    margin: 30px;
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+.email {
+    text-align: center;
+}
+input.tel {
+    text-align: center;
+    margin: 30px;
+}
+.tel {
+    text-align: center;
+}
+button.submit {
+    background: yellow;
+    color: black;
+    text-align: center;
+}
+
+
+.policies {
+    width: 20%;
+}
+.media {
+    width: 20%;
+}
+section.testimonials-section {
+    background: url('./images/ams-testimonials-background.jpg');
+}
+section.contact-section\' {
+    background: url('./images/ams-contact-us-background.jpg');
+}
+section.all.rights {
+    background: black;
+    color: white;
+    text-align: center;
+}
+h5.policy {
+    color: orange;
+}
