@@ -1,0 +1,265 @@
+*{
+box-sizing : border-box;
+margin : 0px;
+padding : 0px;
+}
+.background {
+    background-image: linear-gradient(77deg, transparent,#dffffe,#d9ffff,transparent);
+}
+/*FONT FAMILIES starts here*/
+@font-face{
+font-family : poppins-bold;
+src : url("../fonts/Poppins-Bold.ttf");
+}
+@font-face{
+font-family : poppins-light;
+src : url("../fonts/Poppins-Light.ttf");
+}
+@font-face{
+font-family : poppins-medium;
+src : url("../fonts/Poppins-Medium.ttf");
+}
+@font-face{
+font-family : poppins-regular;
+src : url("../fonts/Poppins-Regular.ttf.ttf");
+}
+/*FONT FAMILIES ends here*/
+
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: #434f4e;
+    font-family: 'poppins-medium';
+}
+.main-color {
+    color: #2767b4;
+}
+.main-heading {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'poppins-bold';
+}
+.sub-heading {
+    font-family: 'poppins-medium';
+}
+.paragraph {
+    font-family: 'poppins-medium';
+    font-size: 12px;
+    text-align: justify;
+    padding: 20px 0 45px 0;
+}
+
+
+/*HEADER styles starts here*/
+.header-links {
+    display: flex;
+    gap: 42px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*HEADER styles ends here*/
+
+/*BANNER section styles starts here*/
+.banner-destination {
+    display: block;
+    color: #f98212;
+    font-family: 'poppins-bold';
+}
+.banner-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 105px;
+}
+
+.banner-left, .banner-right {
+    width: 50%;
+}
+.banner-section h1 {
+    font-family: 'poppins-light';
+    font-size: 45px;
+}
+.banner-right{
+background : url ("../images/ams-banner-background.png") ;
+
+}
+
+/*BANNER section styles ends here*/
+
+/*ABOUT US section styles starts here*/
+.about-paragraph {
+    width: 55%;
+    text-align: justify;
+    margin: 0 auto;
+    font-family: 'poppins-light';
+    padding: 15px 0;
+    line-height: 30px;
+}
+/*ABOUT US section styles ends here*/
+
+/*SERVICES section styles starts here*/
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+.services-section, .featured-courses {
+padding: 80px 150px;
+}
+.software-div{
+    padding: 15px 20px;
+}
+.card {
+    border: 1px solid #000;
+    border-radius: 3%;
+    width: 30%;
+}
+button.readBtn {
+    background-color: #015aec;
+    color: #fff;
+    border: none;
+    padding: 8px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.courses-three {
+    display: flex;
+    justify-content: space-around;
+}
+/*SERVICES section styles ends here*/
+/*FEATURED COURSES section styles starts here*/
+ul.course-details-list {
+    display: none;
+    overflow-y: scroll;
+    height: 75px;
+}
+
+
+.featured-courses li {
+    border-top: 1px solid black;
+    padding: 7px 20px;
+}
+.career-border {
+    border-bottom: 1px solid black;
+}
+.display-list:hover .course-details-list{
+display : block;
+}
+
+
+/*FEATURED COURSES section styles ends here*/
+
+/*TESTIMONIALS section styles starts here */
+.circle {
+    width: 15px;
+    height: 15px;
+    background-color: #bcb4b5;
+    border-radius: 100%;
+    display: inline-block;
+}
+.testimonials-div {
+    background-image: url("../images/ams-testimonials-photo-holding-pin.png"), url(../images/ams-testimonials-quotes-frame.png);
+    padding: 290px 0;
+    background-size: 3%,50%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top 215px right 385px,center;
+}
+.testimonials-para-image {
+    display: flex;
+}
+.testimonials-div img {
+    width: 56%;
+}
+.circles {
+    text-align: center;
+}
+
+.testimonials-paragraph {
+    width: 25%;
+    line-height: 25px;
+    text-align: justify;
+    margin: auto 0 auto 363px;
+}
+/*TESTIMONIALS section styles ends here */
+/*BUSINESS section styles starts here*/
+section.business-section {
+    text-align: center;
+}
+/*BUSINESS section styles ends here*/
+
+/*CONTACT US section styles starts here*/
+input {
+    padding: 1% 15% 1% 4%;
+    border-radius: 25px;
+    display: block;
+    margin: 27px auto;
+}
+.contact-section {
+    background: url('../images/ams-contact-us-background.jpg') no-repeat;
+    text-align: center;
+    padding: 82px  0 123px;
+    background-position: center;
+    background-size: 108%;
+}
+.submitBtn {
+    border: none;
+    border-radius: 25px;
+    padding: 14px 45px;
+    background-color: #faa43c;
+    font-weight: bold;
+    font-size: 17px;
+}
+.heading-colour {
+    color: #e7e7e8;
+}
+/*CONTACT US section styles ends here*/
+/*FOOTERsection styles starts here*/
+.footer-div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+footer {
+    background-color: #061727;
+padding: 40px 0 65px;
+}
+
+.footer-logo {
+    width: 22%;
+    text-align: justify;
+
+}
+.logo-image{
+padding: 24px 0 34px;
+}
+
+.footer-sub-heading {
+    color: #ffab3d;
+    padding-top: 100px;
+}
+.footer-anchor, .footer-paragraph {
+    color: #babcc0;
+    font-family: 'poppins-medium';
+}
+.footer-sub-heading {
+    color: #ffab3d;
+  
+}
+.copy-rights {
+    text-align: center;
+    padding-top: 90px;
+}
+.footer-anchor{
+line-height: 25px;
+}
+.footer-media .footer-anchor {
+    line-height: 45px;
+}
+/*FOOTERsection styles ends here*/
