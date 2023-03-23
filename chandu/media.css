@@ -1,0 +1,293 @@
+@media (max-width:1200px){
+.uls a {
+    font-size: 22px;
+}
+section.section1-ultimate {
+    display: flex;
+    padding: 0px;
+}16:48 23-03-2023
+span.destination {
+    font-size: 70px;
+}
+.about p {
+    width: 70%;
+}
+.content {
+    width: 70%;
+}
+.ultimate h1 {
+    font-size: 30px;
+}
+.about h1 {
+    font-size: 80px;
+}
+.section3-services h1 {
+    font-size: 80px;
+}
+.section4-featured h1 {
+    font-size: 80px;
+}
+.testmonals h1 {
+    font-size: 80px;
+}
+.section6-our h1 {
+    font-size: 70px;
+}
+.section7-inputs h1 {
+    font-size: 70px;
+}
+}
+
+@media (max-width:996px){
+header.header-section {
+    padding: 0px;
+}
+
+ul.uls {
+    display:flex;
+    gap: 20px;
+}
+.uls a {
+    font-size: 22px;
+}
+section.section1-ultimate {
+     display:flex;
+    padding: 0px;
+}
+span.destination {
+    
+    font-size: 35px;
+}
+.ultimate h1 {
+    font-size: 30px;
+}
+/*sec2*/
+
+
+/*.ultimate, .banner-image {
+    width: 50%;
+    padding: 0px;
+}
+span.destination {
+    font-size: 40px;
+}
+/*sec3*/
+
+.about p {
+    width: 78%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.about h1 {
+    font-size: 70px;
+}
+/*sec4*/
+.section3-services h1 {
+    font-size: 70px;
+}
+.section4-featured h1 {
+    font-size: 70px;
+}
+/*sec5*/
+.testmonals h1 {
+    font-size: 70px;
+}
+.para-img {
+    width: 50%;
+    padding: 78px 65px;
+}
+.content {
+    width: 80%;
+}
+}
+
+@media (max-width:768px){
+.nav-section {
+    flex-direction: column;
+}
+ul.uls {
+     flex-direction: column;
+}
+section.section1-ultimate {
+   flex-direction: column;
+    padding: 0px;
+}
+.ultimate, .banner-image {
+    width: 100%;
+    padding: 0px;
+}
+.ultimate h1 {
+    font-size: 40px;
+}
+span.destination {
+    font-size: 46px;
+}
+.about p {
+    width: 100%;
+}
+.about h1 {
+    font-size: 75px;
+}
+
+.section3-services h1 {
+    font-size: 75px;
+}
+.div1 {
+    width: 45%;
+    border: 1px solid;
+margin-bottom: 25px;
+}
+
+
+.sec4-div1 {
+    width: 45%;
+    border: 1px solid;
+    margin-bottom: 25px;
+}
+.section4-featured h1 {
+    font-size: 60px;
+}
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    margin: 0px auto;
+}
+.content {
+    width: 100%;
+}
+input {
+    width: 80%;
+}
+.inputs button {
+    width: 25%;
+}
+.section8-information h1 {
+    font-size: 60px;
+}
+.footer-section {
+    display: block;
+    padding: 0px;
+}
+.sec6-ams {
+    width: 100%;
+}
+.navigate {
+    width: 100%;
+}
+.policy {
+    width: 100%;
+}
+.social {
+    width: 100%;
+}
+}
+
+@media (max-width:576px){
+.nav-section {
+    flex-direction: column;
+}
+ul.uls {
+    font-size: 11px;
+    flex-direction: column;
+}
+header.header-section {
+    padding: 0px;
+}
+.logo {
+    width: 100%;
+}
+nav.navbar {
+    width: 100%;
+}
+
+/*sec2*/
+section.section1-ultimate {
+    flex-direction: column;
+    padding: 0px;
+}
+.ultimate, .banner-image {
+    width: 100%;
+}
+span.destination {
+    display: block;
+    font-size: 44px;
+}
+
+/*sec3*/
+.about p {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.services {
+    flex-direction: column;
+}
+.div1 {
+    width: 100%;
+    border: 1px solid;
+}
+/*sec4*/
+
+.featured {
+   flex-direction: column;
+}
+.sec4-div1 {
+    width: 100%;
+    border: 1px solid;
+}
+.section4-featured h1 {
+    font-size: 50px;
+}
+section.section4-featured {
+    padding-left: 0px;
+}
+section.section3-services {
+    padding-left: 0px;
+}
+/*sec5*/
+
+.content {
+    width: 100%;
+}
+.para-img p {
+    font-size: 13px;
+}
+.nandita {
+    font-size: 21px;
+    margin-top: -150px;
+    float: right;
+}
+
+/*sec6*/
+input {
+    margin: 20px;
+    border-radius: 28px;
+    padding: 18px;
+    width: 80%;
+}
+.inputs button {
+    width: 25%;
+}
+/*sec7*/
+.section8-information h1 {
+    font-size: 50px;
+}
+
+.footer-section {
+   flex-direction: column;
+}
+.sec6-ams {
+    width: 100%;
+}
+.navigate {
+    width: 100%;
+}
+.policy {
+    width: 100%;
+}
+.social {
+    width: 100%;
+}
+}
