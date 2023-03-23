@@ -1,6 +1,6 @@
 Main Color: #2767b4
-Text Color1: #f8861b
+h1 sapn Text Color1: #f8861b
 Text Color2: #18242c
-Text Color3:#666666
-Text Color4:#474747
-Text Color5:#e7e7e8
+p Text Color3:#666666
+heading sky Text Color4:#474747
+dots Text Color5:#e7e7e8
