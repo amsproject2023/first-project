@@ -156,6 +156,10 @@ display : block;
 /*FEATURED COURSES section styles ends here*/
 
 /*TESTIMONIALS section styles starts here */
+section.testimonials-section {
+    background: url("../images/ams-testimonials-bg.jpg") no-repeat;
+    background-size: cover;
+}
 .circle {
     width: 15px;
     height: 15px;
@@ -164,17 +168,27 @@ display : block;
     display: inline-block;
 }
 .testimonials-div {
-    background-image: url("../images/ams-testimonials-photo-holding-pin.png"), url(../images/ams-testimonials-quotes-frame.png);
+    background-image:  url(../images/ams-testimonials-quotes-frame.png);
     padding: 290px 0;
-    background-size: 3%,50%;
+    background-size:50%;
     text-align: center;
     background-repeat: no-repeat;
-    background-position: top 215px right 385px,center;
+    background-position:center;
 }
 .testimonials-para-image {
     display: flex;
 }
-.testimonials-div img {
+figure {
+    position: relative;
+    top: -96px;
+}
+img.holding-pin {
+    position: absolute;
+    right: 84px;
+    bottom: 124px;
+    width: 30px;
+}
+.testimonials-div .mohan-image {
     width: 56%;
 }
 .circles {
