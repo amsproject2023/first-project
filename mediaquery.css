@@ -1,0 +1,19 @@
+@media(max-width:568px){
+
+ul.home {
+width:4%;
+    display: block;
+}
+
+ul.home {
+    flex-direction: column;
+}
+section.about-us {
+    WIDTH: 50%;
+}
+section.services-section {
+    WIDTH: 50%;
+}
+section.featured.courses {
+    width: 50%;
+}
