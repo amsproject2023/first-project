@@ -1,0 +1,139 @@
+@media (max-width: 1200px){
+  
+.nav-section ul {
+    gap: 15px;
+    font-size: 18px;
+}
+.profile-contant {
+    padding-left: 46px;
+}
+
+}
+@media (max-width: 992px){
+  .nav-section ul {
+    gap: 15px;
+    font-size: 14px;
+}
+h1{
+font-size:2rem;
+}
+h2{
+font-size:1.5rem;}
+.nav-section {
+    justify-content: start;
+}
+.services-content button, .featured-content button {
+    padding: 6px 14px;
+    font-size: 12px;
+}
+.service, .course {
+    margin: 0px 1px 0px 20px;
+}
+.profiles {
+    margin: 0% 0%;
+}
+.contactus-inputs input {
+    width: 48%;
+}
+.testimonials-dots {
+    margin-left: 35px;
+    justify-content: center;
+    margin: 2% 3%;
+}
+}
+@media (max-width: 768px){ 
+.header-section, .banner-section, .aboutus-section, .services-content, .featured-content {
+
+  flex-direction: column;
+}
+h1{
+font-size:2rem;
+}
+h2{
+font-size:1.5rem;}
+.nav-section {
+    justify-content: start;
+}
+.logo{
+width:100%;
+}
+  .logo img{
+width:auto;
+}
+                          
+.nav-section {
+    width: 100%;
+}
+.nav-section ul {
+flex-direction:column;
+}
+.service, .course {
+    margin: 27px 20px 0px 20px;
+ width:100%;
+}
+
+.banner-title, .banner-img {
+    width: 100%;
+}
+
+.nandithapic-pin {
+    margin-bottom: -30px;
+    position: relative;
+    right: -40px;
+}
+img.img2 {
+    width: 160px;
+}
+/*.profiles {
+    padding: 0% 15%;
+    margin: 18px 12px;
+    justify-content: start;
+    height: 60pc;
+}*/
+
+/*.profile-contant {
+    width: 100%;
+    margin-top: 11pc;
+}*/
+.nanditha-img {
+    margin:0; 
+}
+/*.nandithapic-pin {
+    margin-bottom: -16px;
+    position: relative;
+    right: 25px;
+}*/
+
+.footer-content {
+    flex-direction: column;
+}
+.link {
+    width: 100%;
+}
+.footer-content h5 {
+    margin:0!important;
+}
+.contactus-inputs input {
+    width: 48%;
+}
+.testimonials-dots {
+    margin-left: 35px;
+    justify-content: end;
+    margin: 2% 3%;
+}
+}
+@media (max-width: 576px){
+.nandithapic-pin .img1{
+width:23px;
+}
+.nanditha-img .img2{
+width:160px;
+}
+.nandithapic-pin {
+    margin-bottom: -14px;
+    position: relative;
+    right: -38px;
+   
+}
+
+}
