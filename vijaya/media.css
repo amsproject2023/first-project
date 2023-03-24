@@ -27,7 +27,10 @@ font-size:1.5rem;}
     font-size: 12px;
 }
 .service, .course {
-    margin: 0px 1px 0px 20px;
+    width: 48%;
+}
+.service.Printing-Services,.backend.course {
+    margin-top: 23px;
 }
 .profiles {
     margin: 0% 0%;

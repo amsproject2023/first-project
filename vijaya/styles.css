@@ -93,15 +93,15 @@ font-size: 18px;
                 /*ABOUTUS SECTION END */
 
                    /*SERVICES SECTION START */
-.service,.course {
-    border: 1px solid #d8d8d8;
-    margin: 0px 20px 0px 20px;
-  border-radius:5px;
-width: 29.33%;
+.service, .course {
+    border: 1px solid #999999;
+    border-radius: 5px;
+    width: 31.33%;
 }
-/*.featured-content,.services-content{
+.featured-content,.services-content{
 flex-wrap: wrap;
-}*/
+justify-content: space-between;
+}
 .service-content{
 padding: 0px 20px 28px 20px;
 }
@@ -119,13 +119,14 @@ padding: 0px 20px 28px 20px;
 .featured-content ul {
     overflow: hidden;
     height: 114px;
-border-top: 1px solid #d7d7d7;
+border-top: 1px solid #999999;
 }
 .featured-content h4,.featured-content p,.featured-content a{
 padding-left:20px!important;}
 
 .course,.featured-content ul{
 padding:0!important;
+margin: 37px 0px;
 }
 .featured-content ul:hover {
     overflow-y: scroll;
