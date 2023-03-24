@@ -27,9 +27,11 @@ h3 {
     line-height: 1.5rem;
     margin: 0px;
     font-family: 'poppinsRegular';
+    color:#474747;
 }
 p {
     font-family: 'poppinsRegular';
+    text-align:justify;
 }
 							/* common styles for all sections ends */
 
@@ -51,7 +53,7 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #18242c;
     font-size: 20px;
     font-family:poppinsLight;
 }
@@ -85,7 +87,7 @@ nav ul li a {
     font-size: 3rem;
     line-height: 4rem;
     text-align: start;
-    color:black;
+    color:#474747;
     font-family: 'poppinsLight';
     font-weight: normal;
 }
@@ -109,6 +111,7 @@ nav ul li a {
 .services,.courses {
     display: flex;
     padding: 0% 11% 3%;
+	flex-wrap:wrap;
 }
 .services-title {
     padding: 0 0 1% 0;
@@ -117,6 +120,7 @@ nav ul li a {
     border: 1px solid black;
     margin: 0% 2%;
     border-radius: 5px;
+	width:29%;
 }
 .ams-service {
     padding: 6%;
@@ -135,12 +139,15 @@ border-radius: 5px;
     margin: 6% 0;
 }
 
+
 							/* services section ends */
 
 							/*Featured courses starts*/
 .course {
     border: 1px solid black;
     margin:0% 2%;
+    border-radius: 5px;
+	width:29%;
 }
 .course ul {
     padding: 0px;
@@ -149,20 +156,20 @@ border-radius: 5px;
     margin: 0px;
 }
 .course ul:hover {
-    padding: 0px;
  overflow-y: scroll;
 }
-.course li {
+.course ul li {
     list-style: none;
     padding: 4% 6%;
 }
 .course p, .course li {
     border-bottom: 1px solid;
 }
-.course a {
-    text-decoration: none;
+.course ul li a {
+    font-family: 'poppinsMedium';
+     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 17px;
 }
 .course p {
     padding: 0% 6% 7%;
@@ -172,7 +179,6 @@ border-radius: 5px;
     padding: 7% 6% 3%;
 }
 .course .read-btn{
-
     margin:6% 6%;
 }
 .featured-title {
@@ -191,8 +197,7 @@ border-radius: 5px;
     background-size:cover;
     display: flex;
     width: 50%;
-    margin: 0 auto;
-    padding: 0 0 12% 0;
+    padding: 0 0 10% 0;
     position:relative;
 }
 .profile-content {
@@ -216,22 +221,28 @@ img.pin {
     right: 11%;
     top: -5px;
 }
-.slide-circles span {
-    background-color: #b5a9a9;
-    height: 18px;
-    width: 18px;
-    display: block;
-    border-radius: 100%;
-    margin:0px 6px;
+.student-profiles {
+    padding: 2% 0 4% 0;
+    display: flex;
+    justify-content: center;
 }
 .slide-circles {
     display: flex;
-    justify-content: center;
-    padding:3% 0%;
-    position:relative;
-    bottom:76px;
+    position: relative;
+    bottom: 75px;
+    box-sizing: border-box;
+    width: fit-content;
+    margin: auto;
 }
-							/*testimonials ends*/
+.slide-circles span {
+    display: block;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 100%;
+    margin: 7px;
+}
+					/*testimonials ends*/
 
 							/*contact us section starts*/
 .contact-section {
@@ -253,7 +264,6 @@ input {
     outline: none;
     border-radius: 35px;
     font-size: 17px;
-    font-style: italic;
     width: 22%;
 }
 input#submit-btn {
@@ -276,7 +286,7 @@ input#submit-btn {
 footer {
     background: #031323 url(../images/ams-footer-background.jpg) no-repeat 0px 0px;
      background-size:cover;
-    color: white;
+    color: #e7e7e8;
 }
 .information-title {
     padding: 4% 0%;
@@ -288,10 +298,13 @@ footer h1 {
 .information {
     display: flex;
     justify-content: center;
-    padding: 3% 0%;
+    padding: 3% 0% 3% 4%;
 }
 .footer-logo img {
     width: 200px;
+}
+.footer-logo p {
+    text-align: justify;
 }
 h5 {
     font-size: 20px;
@@ -302,21 +315,23 @@ h5 {
 footer ul {
     padding: 0px;
 }
-footer li {
+footer ul li {
     list-style: none;
     padding: 1% 0;
 }
-footer a {
+footer ul li a {
     text-decoration: none;
-    color: white;
+    color: #e7e7e8;
     font-family: 'poppinsLight';
 }
 .copy-right {
-    text-align: center;
     padding: 0 0 4% 0;
-   
-}
-.copy-right p{
+    display: flex;
+    justify-content: center;
+}.copy-right p{
       font-family:poppinsLight;
+}
+.menus {
+    padding: 0 0 0 2%;
 }
 							/*footer ends*/
