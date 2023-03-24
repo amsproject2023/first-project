@@ -1,0 +1,232 @@
+@media (max-width:568px) {
+    
+.logo {
+        position: absolute;
+        
+    }
+    ul.list {
+        flex-direction: column;
+        gap: 0px;
+        font-size: 22px;
+padding: 42px;
+        
+    }
+    section.banner_section {
+        flex-direction: column;
+    }
+    .ultimate {
+        font-size: 19px;
+    }
+    span.destination {
+        font-size: 30px;
+    }
+    .about {
+        font-size: 20px;
+    }
+    p.ams_content {
+        font-size: 13px;
+    }
+    .ser {
+        font-size: 20px;
+    }
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+     .development, .training, .printing {
+    width: 100%;
+    } 
+    
+    h1.software {
+        font-size: 19px;
+    }
+    p.lorem {
+        font-size: 12px;
+    }
+    button.Ream {
+        padding: 3px 7px;
+    }
+    .featured_title {
+        font-size: 19px;
+    }
+    .courses_all {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1.fullstack_title {
+        font-size: 18px;
+    }
+    p.full_text {
+        font-size: 12px;
+    }
+.full_stack,.front-end,.back_end {
+   width:100%;
+}
+    
+    li.course {
+        font-size: 17px;
+    }
+    button.more {
+        padding: 6px 15px;
+    }
+    button.submit {
+        width: 14%;
+        font-size: 10px;
+    }
+.footer_content {
+    flex-direction: column;
+}
+p.text {
+    font-size: 12px;
+}
+.information_title {
+    font-size: 20px;
+}
+.navigate.Site {
+    font-size: 13px;
+}
+h3 {
+    font-size: 15px;
+}
+.all_copy {
+    font-size: 17px;
+}
+    
+.test_imgs {
+    margin: 0px -53%;
+}
+.images {
+    left: 99px;
+}
+.testimonials {
+    font-size: 15px;
+    margin: 21% 0% 0% -19%;
+}
+.images {
+    width: 46% !important;
+}
+}
+/*sec768*/
+@media (max-width:768px) {
+.logo {
+        position: absolute;
+        
+    }
+ul.list {
+        flex-direction: column;
+        gap: 0px;
+        font-size: 22px;
+    
+
+}
+.ultimate {
+    font-size: 19px;
+}
+span.destination {
+        font-size: 30px;
+    }
+.about {
+    font-size: 21px;
+}
+p.ams_content {
+    font-size: 15px;
+}
+.services {
+    flex-direction: column;
+    align-items: center;
+}
+ .development, .training, .printing {
+    width: 100%;
+    }
+.full_stack, .front-end, .back_end {
+   width:100%;
+}
+.courses_all {
+    flex-direction: column;
+}
+.featured_title {
+        font-size: 19px;
+    }
+    .courses_all {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1.fullstack_title {
+        font-size: 18px;
+    }
+    p.full_text {
+        font-size: 12px;
+    }
+.testimonials {
+    font-size: 13px;
+    margin: auto;
+padding: 16% 0% 0% 47% !important;
+}
+.images {
+    width: 19%;
+}
+span.mohan {
+    font-size: 13px;
+    margin: 2px;
+}
+ul.list {
+    flex-direction: column;
+    gap: 0px;
+    font-size: 22px;
+    margin: 15%;
+}
+}
+
+/*sec992*/
+@media (max-width:992px){
+.logo {
+    
+    width: 50%;
+}
+section.navigation {
+    flex-direction: column;
+}
+.ultimate {
+    font-size: 20px;
+}
+span.destination {
+    font-size: 28px;
+margin-top: 22px;
+}
+.ser {
+    font-size: 22px;
+}
+.featured_title {
+    font-size: 17px;
+}
+.featured_title {
+    font-size: 17px;
+}
+.testimonials_title {
+    font-size: 24px;
+}
+.area {
+    font-size: 23px;
+}
+.information_title {
+    font-size: 17px;
+}
+.images {
+    margin: 6% -37% 0% 0%;
+}
+.testimonials {
+   /* margin: 0px;*/
+    width: 46%;
+
+    margin: 8% 2% 0% -11%;
+
+    padding: 11% 0px 0px 36%;
+    /* margin: 0% -34% 0% 0%; */
+}
+/*.testimonials {
+    width: 32%;
+    font-size: 15px;
+    margin: 10% -23% 0% 0%;
+}*/
+
+}
