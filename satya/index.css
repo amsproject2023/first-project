@@ -142,7 +142,7 @@ box-sizing: border-box;
     padding: 12px;
 }
 .services_content button {
-    background-color: blue;
+      background-color: #005bea;
   color: #e7e7e8;
     text-transform: capitalize;
     font-family: 'pmedium';
@@ -238,8 +238,8 @@ li.fea_bord_t {
 }
 
 .featured_fullstack button {
-    background-color: blue;
-   color: #e7e7e8;
+    background-color: #005bea;
+    color: #e7e7e8;
     text-transform: capitalize;
     font-family: 'pmedium';
     border-radius: 5px;
@@ -281,7 +281,7 @@ box-sizing: border-box;
     width: 54%;
     margin: auto;
     display: flex;
-    padding-bottom: 17%;
+    padding-bottom: 15%;
 }
 .testimonials_para, .testimonials_img {
     width: 50%;
@@ -359,7 +359,7 @@ section.inputs_sec {
 section.inputs_sec {
     padding: 80px;
     background: url('../images/ams-contact-us-background.jpg') no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 section.inputs_sec h1 {
     color: #e7e7e8;
@@ -436,7 +436,7 @@ section.footer_sec h1 {
 section.footer_sec {
     
     background: url('../images/ams-footer-background.jpg') no-repeat;
-    background-size:100%;
+    background-size:cover;
 }
 
 

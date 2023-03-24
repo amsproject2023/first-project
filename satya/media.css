@@ -1,0 +1,315 @@
+@media screen and (min-width:1200px){
+/*BANNER*/
+.banner_left h1 {
+ 
+    font-size: 40px;
+}
+/*INPUTS*/
+section.inputs_sec {
+    padding: 0px;
+}
+section.inputs_sec h1 {
+    margin: 0px;
+}
+.inputs_tot {
+    padding: 135px;
+}
+/*SERVICES*/
+.services_content h2 {
+    font-size: 20px;
+}
+/*FEATURED COURSES*/
+section.featured_sec {
+    padding: 60px;
+}
+.featured_fullstack img {
+    border-radius: 5px 5px 0px 0px;
+}
+}
+
+@media screen and (max-width:1200px){
+
+.banner_left h1 {
+    color: #18242c;
+    font-family: 'plight';
+    text-transform: capitalize;
+    font-size: 30px;
+}
+/*INPUTS*/
+section.inputs_sec {
+    padding: 0px;
+}
+section.inputs_sec h1 {
+    font-size: 36px;
+    margin: 0px;
+}
+.inputs_tot button {
+    margin-bottom: 20px;
+}
+.inputs_tot {
+    padding: 115px;
+}
+.inputs_steps {
+    margin: 19px 0px;
+}
+.inputs_steps input {
+    height: 45px;
+    width: 30%;
+}
+/*TESTIMONILAS*/
+.testimonials_para {
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 17px;
+}
+/*SERVICES*/
+.services_content h2 {
+    font-size: 17px;
+}
+
+.services_development img {
+    border-radius: 9px 9px 0px 0px;
+}
+
+}
+
+@media screen and (max-width:992px){
+/*HEADER*/
+header {
+    display: block;
+    padding-top: 20px;
+}
+header li {
+    display: block;
+    padding: 1px 52px;
+}
+header ul {
+    display: block;
+}
+/*BANNER*/
+.banner_left h1 {
+ 
+    font-size: 19px;
+}
+/*SERVICES*/
+.services_content p {
+    font-family: 'pmedium';
+    color: #18242c;
+    font-size: 12px;
+}
+.services_content h2 {
+    font-size: 11px;
+}
+.services_development img {
+    border-radius: 4px 4px 0px 0px;
+}
+.services_content p {
+    font-family: 'pmedium';
+    color: #18242c;
+    font-size: 13px;
+}
+section.services_sec {
+    padding: 50px;
+}
+
+/*FEATURED*/
+.featured_fullstack {
+    margin-right: 20px;
+}
+.featured_tot h2 {
+    font-size: 20px;
+}
+.featured_content p {
+    font-family: 'pmedium';
+    color: #18242c;
+    font-size: 15px;
+}
+.featured_fullstack img {
+    border-radius: 5px 5px 0px 0px;
+}
+section.featured_sec {
+    padding: 50px;
+}
+/*Testimonials*/
+.testimonials_para {
+    padding-top: 8%;
+    padding-left: 8%;
+    font-size: 13px;
+}
+
+.testimonials_img h4 {
+    padding-top: 15px;
+    font-size: 15px;
+}
+/*CONTACT US*/
+section.inputs_sec {
+    padding: 0px;
+}
+section.inputs_sec h1 {
+    font-size: 32px;
+    margin: 0px;
+}
+.inputs_tot button {
+    margin-bottom: 20px;
+}
+.inputs_tot {
+    padding: 88px;
+}
+.inputs_steps {
+    margin: 11px 0px;
+}
+.inputs_steps input {
+    height: 43px;
+    width: 40%;
+}
+/*FOOTER*/
+.footer_tot {
+    padding: 30px;
+}
+
+}
+
+@media screen and (max-width:768px){
+/*BANNER*/
+.banner_left h1 {
+    font-size: 45px;
+}
+.banner_tot {
+    display: block;
+}
+.banner_left, .banner_right {
+    width: 100%;
+    box-sizing: border-box;
+}
+/*ABOUT US*/
+
+
+/*SERVICES*/
+.services_tot {
+    display: block;
+}
+.services_development {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.services_development img {
+    border-radius: 12px 12px 0px 0px;
+}
+/*FEATURED COURSES*/
+.featured_fullstack {
+    width: 100%;
+}
+.featured_tot {
+    display: block;
+}
+.featured_fullstack {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.featured_fullstack img {
+    border-radius: 15px 15px 0px 0px;
+}
+/*TESTIMONIALS*/
+.testimonials_para {
+    padding-top:12%;
+    padding-left: 9%;
+    font-size: 8px;
+}
+.testimonials_img h4 {
+    padding-top: 2px;
+    font-size: 12px;
+}
+/*CONTACT US*/
+.inputs_steps input {
+    height: 43px;
+    width: 55%;
+}
+
+/*FOOTER*/
+
+.sec8_row {
+    display: block;
+}
+.footer_col-1 {
+    width: 100%;
+}
+.footer_col-2 {
+    width: 100%;
+}
+.footer_col-3 {
+ width: 100%;
+}
+.footer_col-4 {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:576px){
+
+
+/*BANNER*/
+.banner_left h1 {
+    font-size: 30px;
+}
+
+/*ABOUT*/
+.about_us_sec h1 {
+    font-size: 30px;
+   
+}
+
+/*SERVICES*/
+.services_sec h1 {
+    font-size: 30px;
+}
+section.services_sec {
+    padding: 50px;
+}
+.services_development img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+/*FEATURED COURSES*/
+.featured_sec h1 {
+  font-size: 30px;
+    
+}
+section.featured_sec {
+    padding: 50px;
+}
+.featured_fullstack img {
+    border-radius: 11px 11px 0px 0px;
+}
+/*TESTIMONIALS*/
+.testimonials_para {
+    padding-top: 8%;
+    padding-left: 9%;
+    font-size: 8px;
+}
+section.testimonials_sec h1 {
+    font-size: 30px;
+}
+.testimonials_img h4 {
+    padding-top: 2px;
+    font-size: 10px;
+}
+
+/*BUSINESS AREA*/
+section.business_sec h1 {
+    font-size: 30px;
+ 
+}
+
+/*INPUTS*/
+.inputs_steps input {
+    height: 43px;
+    width: 60%;
+}
+
+section.footer_sec h1 {
+
+    font-size: 30px;
+}
+
+}
