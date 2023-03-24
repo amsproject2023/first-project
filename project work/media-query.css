@@ -1,0 +1,62 @@
+@media (min-width:568px) and (max-width:767px) {
+.display , nav ul li ,.services ,.courses{
+    display:block !important ;
+}
+.footer {
+    padding: 0 74px !important;
+}
+.social_media ul li a {
+    line-height: 33px;
+}
+.copy_right ,.footer_title ,.banner_description {
+    padding:0 !important;
+}
+}
+
+
+@media (min-width:992px) and (max-width:1200px){
+#details_name {
+    margin-top: 71px !important;
+}
+input {
+    margin: 18px auto 0 !important;
+}
+}
+
+@media (min-width:768px) and (max-width:1200px){
+
+
+header {
+    padding: 21px 0 21px 21px !important;
+    
+}
+.text-center {
+    margin: 0;
+}
+.banner_description_h1 {
+    padding: 0;
+}
+.about_us_description, figure ul li a, .services p, .courses p, footer p {
+    font-size: 13px;
+}
+figure h3 {
+    font-size: 14px;
+    padding: 0 10px;
+}
+.services p, .courses p {
+    line-height: 15px;
+}
+#details_name {
+    margin-top: 46px;
+}
+input {
+    margin: 8px auto 0;
+}
+.contact_us {
+    padding: 30px 0 45px 0;
+}
+}
+
+
+
+
