@@ -1,0 +1,376 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/*fonts*/
+@font-face {
+  font-family: poppinsBold;
+  src: url('./fonts/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: poppinsLight;
+  src: url('./fonts/Poppins-Light.ttf');
+}
+@font-face {
+  font-family: poppinsMedium;
+  src: url('./fonts/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: poppinsRegular;
+  src: url('./fonts/Poppins-Regular.ttf');
+}
+/* common styles for all sections starts */
+h3,.banner-content span,#submit-btn {
+  font-family: poppinsBold;
+}
+nav ul li a,.banner-content h1,.about-us p,footer ul li a,.copy-right p {
+  font-family: poppinsLight;
+}
+.course ul li a,
+h1,h5 {
+  font-family: poppinsMedium;
+}
+p {
+  font-family: 'poppinsRegular';
+}
+h1 {
+  color: #2767b4;
+}
+h3 {
+  font-size: 1.3em;
+  color: #474747;
+}
+p {
+  text-align: justify;
+}
+/* common styles for all sections ends */
+header.container-fluid {
+  position: absolute;
+  z-index: 999;
+}
+.ams-logo {
+  width: 230px;
+}
+.logo {
+  width: 30%;
+}
+a.nav-link {
+  text-decoration: none;
+  color: #18242c;
+}
+/*banner section starts*/
+.banner-section {
+  background: linear-gradient(178deg, #c3fdff, white);
+}
+.banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content span {
+  color: #f8861b;
+}
+.content h1 {
+  line-height: 1.5em;
+  text-align: left;
+  color: #474747;
+  font-weight: normal;
+}
+.carousel-caption {
+  position: static;
+}
+.carousel {
+  position: relative;
+}
+#banner-carousel {
+  top: 90px;
+}
+/*banner section ends*/
+/*About us section starts*/
+.about-us p {
+  font-size: 18px;
+  color: #666666;
+  text-align: justify;
+  line-height: 30px;
+}
+/*About us section ends*/
+/* services & course section starts */
+.ams-services,.courses {
+  justify-content: space-evenly;
+}
+.service,.course {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btn.read-btn {
+  background-color: #005bea;
+  color: white;
+  padding: 1em 3em;
+}
+/* services section ends */
+/*Featured courses starts*/
+.course ul {
+  border-top: 1px solid;
+}
+.course li {
+  border-bottom: 1px solid;
+}
+.course ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  padding-left: 1em;
+}
+.course ul {
+  list-style: none;
+  padding: 0px;
+  height: 8em;
+  overflow: hidden;
+}
+.course ul li {
+  padding: 8px 0;
+}
+.course ul:hover {
+  overflow-y: scroll;
+}
+.course-nextslide,
+.course-prevslide {
+  width: 7rem !important;
+  height: 6rem !important;
+  background-color: gray;
+}
+.course-nextslide {
+  margin-left: 50%;
+}
+.course-prevslide {
+  margin-right: 50%;
+}
+/*Featured courses ends*/
+/*testimonials starts*/
+.testimonials {
+  background: url(./images/ams-testimonials-background.jpg) no-repeat 0px 0px;
+  background-size: cover;
+}
+.profiles {
+  position: relative;
+}
+.profile-photo {
+  width: 40%;
+  padding: 3.7em 1.5em;
+}
+.profile-photo h5 {
+  color: #18242c;
+}
+img.pin {
+  position: absolute;
+  right: 14%;
+  top: -5px;
+}
+/*testimonials ends*/
+/*location section starts*/
+iframe {
+  width: 100%;
+}
+/*location section ends*/
+/*contact us section starts*/
+.contact-us {
+  background: blue url(./images/ams-contact-us-background.jpg) no-repeat 0px 0px;
+  text-align: center;
+  background-size: cover;
+}
+.contact-us h1 {
+  color: white;
+}
+.contact-us {
+  padding: 2em 0;
+}
+#submit-btn {
+  background-color: #f8861b;
+  font-size: 20px;
+  padding: 12px 0px;
+  width: 13%;
+  margin: 3em 0 6em;
+  border-radius: 35px;
+}
+#name,#mail,#number {
+  padding: 12px 50px;
+  border-radius: 35px;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+#name {
+  background: url(../public/bootstrap-icons/icons/person.svg) no-repeat 20px 15px;
+  background-size: 25px;
+  background-color: white;
+}
+#mail {
+  background: url(../public/bootstrap-icons/icons/envelope-fill.svg) no-repeat 18px 16px;
+  background-size: 25px;
+  background-color: white;
+}
+#number {
+  background: url(../public/bootstrap-icons/icons/phone.svg) no-repeat 20px 15px;
+  background-size: 25px;
+  background-color: white;
+}
+#error_msg,#error_msg1,#error_msg2{
+  display: none;
+}
+/*contact us section ends*/
+/*footer starts*/
+.footer-logo {
+  width: 23%;
+}
+footer {
+  background: #031323 url(./images/ams-footer-background.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  color: #e7e7e8;
+}
+footer h1 {
+  color: white;
+}
+.information {
+  margin: auto;
+  justify-content: space-between;
+}
+.footer-content img {
+  width: 200px;
+  padding-bottom: 1em;
+}
+.footer-content p {
+  text-align: justify;
+  color: #e7e7e8;
+  padding: 1em 0 0;
+}
+h5 {
+  font-size: 20px;
+  color: #f8861b;
+  padding-bottom: 1em;
+}
+footer ul li {
+  padding: 3px 0;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #e7e7e8;
+}
+footer ul li a:hover {
+  color: #e7e7e8;
+}
+.navigate, .policies, .social-media {
+  padding-top: 43px;
+}
+.copy-right {
+  display: flex;
+  justify-content: center;
+  padding: 7em 0 4em;
+}
+.social-media span {
+  font-size: 2rem;
+}
+footer ul li:hover .meta {
+  color: blue;
+}
+footer ul li:hover .youtube {
+  color: red;
+}
+footer ul li:hover .twitter {
+  color: skyblue;
+}
+footer ul li:hover .insta {
+  color: linear-gradient(230deg, #a614eb, #f12727, #fa32ed);
+}
+/*footer ends*/
+/* about summer page styles starts */
+.about-us p{
+  font-family: poppinsLight;
+}
+.learn-fun ,.summer-holidays{
+  color: #666666;
+  text-align: justify;
+}
+/* programming classes */
+.programming-section{
+ background: #2767b4 url(./aboutpage/images/ams_python_programming.jpg) no-repeat 0px 0px;
+ background-size: cover;
+}
+.programming h1{
+  color: yellow;
+  line-height: 1em;
+}
+.days {
+  color: #e73a33;
+}
+.programming.small,small {
+  color: skyblue;
+}
+.programming-content {
+  color: white;
+}
+button.btn {
+  font-family: 'poppinsRegular';
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+}
+.btn.class-btn {
+  background: linear-gradient(1deg, #05bc46, #4d62de);
+  color: white;
+}
+/* spoken english */
+.english-title h1{
+  color:  #18242c;
+  line-height: 1em;
+}
+.english-title small,.astronomy-title small {
+  color: #176417;
+}
+.english-btn {
+  background: linear-gradient(180deg, #f36100, #fded00);
+}
+/* vr */
+.vr-section{
+   background: gray url(./aboutpage/images/ams_virtual_reality.jpg) no-repeat 0px 0px;
+   background-size:cover;
+}
+.vr-title h1 {
+  line-height: 1em;
+  color: #92df00;
+}
+.vr-content{
+  color: white;
+}
+.vr-btn {
+  background: linear-gradient(181deg, #093d00, #8dda00);
+  color: #fff;
+}
+/* astronomy */
+.astronomy-section{
+  background: url(./aboutpage/images/ams_astronomy.jpg) no-repeat 0px 0px;
+  background-size: cover;
+}
+.astronomy-title h1 {
+  color: #9b23b2;
+  line-height: 1em;
+}
+.astronomy-btn {
+  background: linear-gradient(181deg, #6e0a9e, #d858c5);
+  color: #fff;
+}
+/* enter number */
+.enter-number h2 {
+  line-height: 2em;
+}
+#phone-number {
+  padding: 18px 60px;
+  font-size: 25px;
+  background-color: #500967;
+  border-radius: 35px;
+}
+input#phone-number::placeholder {
+  color: #fff;
+}
+/* about summer page styles ends */

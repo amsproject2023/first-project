@@ -1,0 +1,476 @@
+@media (max-width:576px) {
+    /*header section--max-576*/
+    ul.navbar-nav {
+        gap: 0px;
+    }
+    /*banner section--max-576*/
+    h1 {
+        font-size: 2.5em;
+        line-height: 2em;
+    }
+    /*about us section--max-576 */
+    .about-us p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .about-us {
+        width: 85%;
+        margin: auto;
+    }
+    .ams-service {
+        padding: 1em;
+    }
+    /*services & courses sections--max-576*/
+    .service,.course {
+        width: 90%;
+        margin: 2% 0;
+    }
+    button.btn.read-btn {
+        padding: 0.5em 3em;
+    }
+    p {
+        font-size: 15px;
+    }
+    /*testimonials section--max-576*/
+    .profiles {
+        width: 90%;
+        margin: auto;
+        padding: 0 0 5em 0;
+    }
+    .profile-content {
+        padding: 5em 0 0 4em;
+    }
+    .profile-photo h5 {
+        padding: 1em 0;
+    }
+    h5 {
+        font-size: 17px;
+    }
+    .slide-circles span {
+        height: 15px;
+        width: 15px;
+        margin: 1px;
+    }
+    .slide-circles {
+        width: 60%;
+        padding-bottom: 1em;
+    }
+    /*contact us section--max-576*/
+    input {
+        padding: 16px 30px;
+        font-size: 16px;
+        width: 90%;
+    }
+    #submit-btn {
+        font-size: 18px;
+        width: 45%;
+        margin: 2em 0 3em;
+    }
+    /*footer --max-576*/
+    .footer-content {
+        width: 100%;
+    }
+    h5 {
+        padding-bottom: 0px;
+    }
+    .copy-right {
+        padding: 3em 0;
+    }
+}
+
+@media (min-width:576px) {
+    /*header section--min-576*/
+    a.nav-link {
+        font-size: 18px;
+    }
+    ul.navbar-nav {
+        gap: 0px;
+    }
+    /*banner section--min-576*/
+    h1 {
+        font-size: 2em;
+        line-height: 2em;
+    }
+    
+    /*about us section--min-576 */
+    .about-us {
+        width: 85%;
+    }
+    /*services & courses sections--min-576*/
+    .service,.course {
+        width: 90%;
+        margin: 2% 0;
+    }
+    button.btn.read-btn {
+        padding: 0.5em 3em;
+    }
+    /*testimonials section--min-576*/
+    .profile-content {
+        padding: 7em 0 0 5em;
+    }
+    .profile-photo h5 {
+        padding: 2em 0;
+        font-size: 17px;
+    }
+    button.slides {
+        height: 18px !important;
+        width: 18px !important;
+        background-color: gray !important;
+        border-radius: 100%;
+        margin: 0px 6px !important;
+    }
+    .carousel-indicators {
+        margin-left: 20% !important;
+    }
+    /*contact us section--min-576*/
+    .inputs-data.mx-auto {
+        width: 80%;
+    }
+    #name,#mail,#number {
+        font-size: 16px;
+    }
+    #submit-btn {
+        font-size: 18px;
+        width: 45%;
+        margin: 2em 0 3em;
+    }
+    /*footer --min-576*/
+    h5 {
+        padding-bottom: 0px;
+    }
+    .copy-right {
+        padding: 3em 0;
+    }
+    /*about page -learn with fun */
+    .learn-fun, .summer-holidays {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    /* about page -programming classes */
+    .small, small {
+        font-size: 22px;
+    }
+    .programming-content p, .spoken-english p, .vr-content p, .astronomy-content p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    button.btn {
+        font-size: 17px;
+        margin: 20px 8px;
+    }
+    /* about page-spoken english & astronomy*/
+    .spoken-english,.astronomy{
+        flex-direction: column-reverse;
+    }
+    /* about page - enter your number */
+    #phone-number {
+        width: 70%;
+        padding: 10px 30px;
+        font-size: 22px;
+    }
+    /* widths of the sections in about page */
+    .learn-fun, .python-program, .spoken-english, .about-vr, .astronomy, .summer-holidays {
+        width: 90%;
+    }
+     
+}
+
+@media (min-width:768px) {
+    /*banner--min-768*/
+    .banner {
+        justify-content: center;
+    }
+    .banner-content,.banner-image {
+        width: 75%;
+    }
+    /*services & courses --min-768*/
+    .service,.course {
+        width: 43%;
+        margin: 2% 0;
+    }
+    .ams-services,.courses {
+        width: 100%;
+    }
+    /*testimonials section--min-768*/
+    .profile-content {
+        padding: 4em 0 0 4em;
+    }
+    .profile-photo h5 {
+        padding: 1em 0;
+        font-size: 16px;
+    }
+    /*contact us section--min-768*/
+    .inputs-data.mx-auto {
+        width: 60%;
+    }
+    #submit-btn {
+        width: 25%;
+    }
+    /*footer --min-768*/
+    .footer-content img {
+        padding-bottom: 0px;
+    }
+    /* about summer page - spoken english  */
+    .spoken-english, .astronomy {
+        flex-direction: initial;
+    }
+     /* about summer page - learn fun & summer holidays */
+    .learn-fun, .summer-holidays {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .programming-content p, .spoken-english p, .vr-content p, .astronomy-content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    button.btn {
+        font-size: 15px;
+        margin: 10px 5px;
+    }
+    #phone-number {
+        width: 50%;
+    }
+}
+
+@media (min-width:992px) {
+    /*banner--min-992*/
+    .banner-content,.banner-image {
+        width: 50%;
+    }
+    
+    /*about us--min-992*/
+    .about-us {
+        width: 75%;
+    }
+    .about-us p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /*services & courses --min-992*/
+    .service,.course {
+        width: 29%;
+        margin: 0px;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    /*testimonials section--min-992*/
+    .profile-content {
+        padding: 7em 0 0 4em;
+    }
+    .profile-photo h5 {
+        padding: 2em 0;
+        font-size: 18px;
+    }
+    /*contact us section--min-992*/
+    .inputs-data.mx-auto {
+        width: 45%;
+        margin-top: 20px;
+    }
+    #name,#mail,#number {
+        padding: 12px 50px;
+        border-radius: 35px;
+        font-size: 17px;
+        margin-bottom: 12px;
+    }
+    #submit-btn {
+        width: 23%;
+    }
+    /*footer --min-992*/
+    .navigate, .policies, .social-media {
+        width: 20%;
+    }
+    .footer-content img {
+        padding-bottom: 0px;
+    }
+    h5 {
+        padding-bottom: 12px;
+    }
+    /* about summer page -widths of the sections--- min-992*/
+    .learn-fun, .python-program, .spoken-english, .about-vr, .astronomy, .summer-holidays {
+        width: 75%;
+    }
+     /* about summer page -learn fun & summer holidays ---min-992*/
+    .learn-fun, .summer-holidays {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .programming-content p, .spoken-english p, .vr-content p, .astronomy-content p {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    button.btn {
+        font-size: 17px;
+        margin: 20px 8px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    h1 {
+        font-size: 3em;
+        line-height: 3em;
+        color: #2767b4;
+    }
+    h3 {
+        font-size: 1.3em;
+        color: #474747;
+    }
+    p {
+        text-align: justify;
+    }
+    /*header section min-1200*/
+    a.nav-link {
+        font-size: 19px;
+    }
+    ul.navbar-nav {
+        gap: 35px;
+    }
+    /*banner section min-1200*/
+    .banner-image {
+        width: 48%;
+    }
+    /*About us section min-1200*/
+    .about-us p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .about-us {
+        width: 70%;
+    }
+    /* services & course section min-1200*/
+    .ams-services,.courses {
+        width: 88%;
+    }
+    .service,.course {
+        width: 28%;
+    }
+    .btn.read-btn {
+        padding: 1em 3em;
+    }
+    /*Featured courses min-1200*/
+    .course ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        padding-left: 1em;
+    }
+    .course ul {
+        height: 8em;
+        overflow: hidden;
+    }
+    .course ul li {
+        padding: 8px 0;
+    }
+    /*testimonials min-1200*/
+    .profile-content {
+        padding: 5em 0 0 4em;
+    }
+    .profile-photo h5 {
+        padding: 1em 0;
+        font-size: 18px;
+    }
+    button.slides {
+        height: 20px !important;
+        width: 20px !important;
+        background-color: gray !important;
+        border-radius: 100%;
+        margin: 0px 8px !important;
+    }
+    .carousel-indicators {
+        margin-left: 25% !important;
+    }
+    /*location section min-1200*/
+    iframe {
+        width: 100%;
+    }
+    /*contact us section min-1200*/
+    .contact-us {
+        padding: 2em 0;
+    }
+    .inputs-data.mx-auto {
+        width: 35%;
+        margin-top: 63px;
+    }
+    #name,#mail,#number {
+        padding: 12px 50px;
+        border-radius: 35px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #submit-btn {
+        font-size: 20px;
+        padding: 12px 0px;
+        width: 45%;
+        margin: 3em 0 6em;
+    }
+    /*footer min-1200*/
+    .footer-logo {
+        width: 23%;
+    }
+    .information {
+        width: 95%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .footer-content img {
+        width: 200px;
+        padding-bottom: 1em;
+    }
+    .footer-content p {
+        padding: 1em 0 0;
+    }
+    h5 {
+        font-size: 20px;
+        padding-bottom: 1em;
+    }
+    footer ul li {
+        padding: 3px 0;
+    }
+    .navigate,.policies,.social-media {
+        padding-top: 43px;
+    }
+    .copy-right {
+        padding: 7em 0 4em;
+    }
+    /* about summer page  -- min-1200 */
+    .learn-fun, .summer-holidays {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .small,small {
+        font-size: 29px;
+    }
+      .programming-content p,.spoken-english p,.vr-content p,.astronomy-content p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+      button.btn {
+        font-size: 20px;
+        margin: 40px 8px;
+    } 
+    #phone-number {
+        width: 43%;
+    }
+}
+
+@media (min-width:1400px) {
+    /*header section min-1400*/
+    a.nav-link {
+        font-size: 21px;
+    }
+    ul.navbar-nav {
+        gap: 40px;
+    }
+    /* Testimonials min-1400*/
+    .profile-content {
+        padding: 9em 0 0 5em;
+    }
+    .profile-photo h5 {
+        padding: 1em 0;
+        font-size: 18px;
+    }
+    .profile-photo h5 {
+        padding: 3em 0;
+        font-size: 20px;
+    }
+}

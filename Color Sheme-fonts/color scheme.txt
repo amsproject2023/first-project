@@ -1,6 +1,6 @@
-Main Color: #2767b4
-Text Color1: #f8861b
-Text Color2: #18242c
-Text Color3:#666666
-Text Color4:#474747
-Text Color5:#e7e7e8
+Main Color: #2767b4-blue
+Text Color1: #f8861b-orange
+Text Color2: #18242c-black text
+Text Color3:#666666-gray
+Text Color4:#474747-light black
+Text Color5:#e7e7e8-footer text

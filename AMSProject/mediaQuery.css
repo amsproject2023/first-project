@@ -1,30 +1,84 @@
 @media (max-width:1200px){
-						/*header section starts-1200*/
+				/*header section starts-1200*/
+.navigation {
+    width: 80%;
+    left: 7em;
+}
 nav ul {
-    gap: 40px;
+    gap: 35px;
 }
 nav ul li a {
     font-size: 18px;
 }
-						/*header section ends*/
-						/*banner section starts-1200*/
-.banner-content{
+				/*header section ends*/
+				/*banner section starts-1200*/
+.banner {
+    justify-content: right;
+}
+				/*banner section ends*/
+				/*about us section starts-1200*/
+.about-us {
+    width: 60%;
+    margin: 0 auto 2em;
+}
+				/*about us section ends*/
+				/*services & course section starts-1200 */
+.services, .courses {
+    width: 72%;
+    margin: 0em auto 4em;
+}
+				/*services & course section ends*/
+				/*testimonials section starts-1200*/
+.profiles {
+    width: 60%;
+    padding: 0 0 7em 0;
+}
+.slide-circles {
+    width: 50%;
+}
+				/*testimonials section ends*/
+				/*footer section starts-1200*/
+.information-title {
     padding:0px;
 }
-						/*banner section ends*/
+.information {
+    width: 85%;
+}
+.information + div {
+    padding: 4em 0 2em;
+}
+			/*footer section ends */
+
+
+
+
 }
 
 @media (max-width:992px){
-nav ul {
-    gap: 30px;
+.navigation {
+    width: 84%;
+    left:5em;
 }
-						/*banner section starts-992*/
+nav ul li a {
+    font-size: 16px;
+}
+nav ul {
+    gap: 20px;
+}
+				/*banner section starts-992*/
 .banner-content h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 3rem;
 }
-						/*banner section ends*/
-						/*about us section starts-992*/
+.banner-content {
+    justify-content: left;
+}
+				/*banner section ends*/
+				/*about us section starts-992*/
+.about-us {
+    width: 85%;
+    margin: 0 auto;
+}
 h1 {
     font-size: 2.5rem;
 	line-height: 2.5rem;
@@ -32,33 +86,52 @@ h1 {
 .about-us p {
     margin-inline: 11%;
 }
+
+				/*about us section ends*/
+				/*service section starts-992*/
 .services, .courses {
-    padding: 0% 6% 0%;
+    padding:0px;
 }
-						/*about us section ends*/
-						/*service section starts-992*/
+.services, .courses {
+    width: 80%;
+    margin: 0em auto 2em;
+}
+.ams-service {
+    padding: 10px;
+}
+.service .read-btn {
+    margin: 1em 0;
+}
+.ams-service p {
+    margin: 8px 0;
+}
 h3 {
     font-size: 18px;
 }	
 p{
 font-size:15px;
-}						/*service section ends*/	
+}				/*service section ends*/	
 
-						/*featured courses section starts-992*/
+				/*featured courses section starts-992*/
 .course ul li a {
-	font-size:16px;
+	font-size:15px;
+     padding-left:10px;
 }
-.student-profiles{
-padding:0px;
+.course h3 {
+    padding: 10px 10px 0;
 }
-.profiles{
-padding: 0 0 10% 0;
+.course p {
+    padding: 10px 10px 18px;
 }
+.read-btn {
+    margin: 15px 10px;
+}
+				/*featured courses section ends*/	
+				/*testimonials section starts -992*/
 .profile-content {
     width: 58%;
 }
 .profile-content p {
-    padding: 19% 4% 0% 15%;
 	font-size:13px;
 }
 .profile-photo {
@@ -66,6 +139,12 @@ padding: 0 0 10% 0;
 }
 .profile-photo h5 {
 	font-size: 17px;
+}
+.profile-content {
+    padding: 7em 0 0 4em;
+}
+.profile-photo {
+    width: 46%;
 }
 img.pin {
     position: absolute;
@@ -80,17 +159,10 @@ img.pin {
 }
 .slide-circles {
     position: relative;
-    bottom: 25px;
+    bottom: 70px;
 }
-.course ul li {
-    list-style: none;
-    padding: 2% 6%;
-}
-						/*featured courses section ends*/	
-						/*contact us section starts*/
-.inputs{
-	padding:0px;
-}
+				/*testimonials section ends*/
+				/*contact us section starts-992*/
 input {
     padding: 10px 35px;
     font-size: 16px;
@@ -99,18 +171,25 @@ input {
 input#submit-btn{
 	padding:5px 0px;
 }
-						/*contact us section ends*/	
-						/*footer section starts-992*/
-.information{
-	padding:0px;
+				/*contact us section ends*/	
+				/*footer section starts-992*/
+.information {
+    width: 90%;
 }
-						/*footer section ends*/		
+h5 {
+    font-size: 18px;
+}
+.information + div {
+    padding: 3em 0 2em;
+}
+				/*footer section ends*/		
 }
 
 
 
 @media (max-width:768px){
-						/*header section starts-768*/
+				/*header section starts-768*/
+
 .navigation {
     display: flex;
     flex-direction: column;
@@ -119,36 +198,47 @@ input#submit-btn{
 nav ul li a {
     font-size: 16px;
 }
-						/*header section ends*/
-
-
-						/*banner section starts-768*/
-.banner-content,.banner-image{
-width:100%;
+nav {
+    width: 80%;
+}
+				/*header section ends*/
+				/*banner section starts-768*/
+.banner-section {
+    padding-top: 10em;
+}
+.banner-content, .banner-image {
+    width: 75%;
+    margin: auto;
+}
+.banner-content {
+    justify-content: center;
 }
 .banner {
     display: flex;
     flex-direction: column;
 }
-						/*banner section ends*/
-						/*about us section starts-768*/
-.about-us p {
-    margin-inline: 8%;
+				/*banner section ends*/
+				/*about us section starts-768*/
+.about-us {
+    width: 95%;
 }
-						/*about us section ends*/
-						/*service section starts-768*/
+				/*about us section ends*/
+				/*service section starts-768*/
+.services, .courses {
+    width: 85%;
+    margin: 0em auto;
+}
 .service,.course {
-    margin: 2% 2%;
+    margin: 2%;
     width: 45%;
 }
- 
-						/*service section ends*/
-						/*testimonials section starts-768*/
+				/*service section ends*/
+				/*testimonials section starts-768*/
 .profiles{
 	width:70%;
 	padding:0 0 13% 0;
 }
-						/*contact us section starts -768*/
+				/*contact us section starts -768*/
 input {
     padding: 10px 35px;
     font-size: 15px;
@@ -158,10 +248,10 @@ input#submit-btn{
 	padding:5px 0px;
 	width:30%;
 }
-						/*contact us section ends*/
-						/*footer section starts-768*/
+				/*contact us section ends*/
+				/*footer section starts-768*/
 .information {
-    padding: 0 0 0 12%;
+    padding: 0px;
 }
 .information {
     display: flex;
@@ -170,39 +260,46 @@ input#submit-btn{
 .footer-logo, .menus, .policies, .social-media {
     width: 45%;
 }
-.footer-logo {
-    position: relative;
-    top: -15px;
+.menus, .policies, .social-media {
+    padding-top: 0px;
 }
-footer ul li {
-    padding: 0px;
-}
-						/*footer section ends*/
+				/*footer section ends*/
 }
 
 @media (max-width:576px){
-						/*header section starts-576*/
+				/*header section starts-576*/
 nav ul {
     display: flex;
     gap: 15px;
     flex-direction: column;
 }
-						/*header section ends*/
-						/*service & featured courses section starts-576*/
+.logo {
+    width: 80%;
+}
+				/*header section ends*/
+				/*banner section starts-576*/
+.banner-section {
+    padding-top: 22em;
+}
+.banner {
+    width: 100%;
+}
+				/*banner starts ends*/
+				/*service & featured courses section starts-576*/
 .service,.course{
 	width:96%;
 }
-						/*service & featured courses section ends*/
-						/*testimonials section starts-576*/
+				/*service & featured courses section ends*/
+				/*testimonials section starts-576*/
 .profiles {
     width: 80%;
 }
-						/*testimonials section ends*/
-						/*footer section starts-576*/
-.information {
-    padding: 0 0 0 8%;
-}
+				/*testimonials section ends*/
+				/*footer section starts-576*/
 .footer-logo, .menus, .policies, .social-media {
     width:100%;
+}
+.menus, .policies, .social-media {
+    padding: 0px;
 }
 }

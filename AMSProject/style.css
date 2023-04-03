@@ -1,4 +1,9 @@
-							/* common styles for all sections starts */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+			/*fonts*/							
 @font-face{
 font-family:poppinsBold;
 src:url('../fonts/Poppins-Bold.ttf');
@@ -15,178 +20,187 @@ src:url('../fonts/Poppins-Medium.ttf');
 font-family:poppinsRegular;
 src:url('../fonts/Poppins-Regular.ttf');
 }
+			/* common styles for all sections starts */
+h1,.banner-content span,#submit-btn{
+	 font-family: poppinsBold;
+}
+nav ul li a,.banner-content h1,.about-us p,footer ul li a,.copy-right p{
+	font-family:poppinsLight;
+}
+.course ul li a{
+	font-family: poppinsMedium;
+}
+h3,p,h5{
+	font-family: 'poppinsRegular';
+}
 h1 {
-    font-size: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    font-family: poppinsMedium;
+    font-size: 3em;
+    text-align: center; 
     color: #2767b4;
 }
+h1:not(.no-space){
+	line-height:3em;
+}
 h3 {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    margin: 0px;
-    font-family: 'poppinsRegular';
+    font-size: 1.3em;
     color:#474747;
 }
 p {
-    font-family: 'poppinsRegular';
     text-align:justify;
 }
-							/* common styles for all sections ends */
+			/* common styles for all sections ends */
 
-							/*header section styles starts*/
+			/*header section styles starts*/
 .logo img {
-    width: 200px;
+    width: 230px;
 }
 .navigation {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    padding-top: 2em;
+    width: 76%;
+    margin: auto;
+    position: absolute;
+    left: 12em;
+}
+.logo {
+    width: 33%;
+}
+nav {
+    width: 70%;
 }
 nav ul {
     display: flex;
     gap: 45px;
-}
-nav ul li {
     list-style: none;
 }
 nav ul li a {
     text-decoration: none;
     color: #18242c;
-    font-size: 20px;
-    font-family:poppinsLight;
+    font-size: 21px;
+    
 }
-							/*header section styles ends*/
+			/*header section styles ends*/
 
-							/*banner section style starts*/
+			/*banner section style starts*/
+.banner-section {
+    background: linear-gradient(178deg, #c3fdff, white);
+    padding-top: 7em;
+}
 .banner {
     display: flex;
-    justify-content: space-evenly;
-}
-.banner-content{
-    box-sizing:border-box;
-    width:50%;
-    padding:0 0 0 8%;
-}
-.banner-image{
-    box-sizing:border-box;
-    width:45%;
+    justify-content: space-between;
+    width: 89%;
+    margin: auto;
 }
 .banner-content {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    width:47%;
+}
+.banner-image{
+    width:48%;
 }
 .banner-content span {
     display: block;
     color: #f8861b;
-    font-family: poppinsBold;
+   
 }
-.banner-content h1 {
-    font-size: 3rem;
-    line-height: 4rem;
-    text-align: start;
-    color:#474747;
-    font-family: 'poppinsLight';
+.content h1 {
+    line-height: 1.5em;
+    text-align: left;
+    color: #474747;
     font-weight: normal;
 }
-							/*banner section style ends*/
+			/*banner section style ends*/
 
-							/*About us section starts*/
+			/*About us section starts*/
 .about-us p {
-    font-family: 'poppinsLight';
     font-size: 18px;
-    margin-inline:21%;
     color: #666666;
-	text-align:justify;
+    text-align: justify;
+    margin-bottom: 15px;
 }
-.about-section {
-    padding: 0 0 3% 0;
+.about-us {
+    width: 56%;
+    margin: 1em auto 4em;
 }
 
-							/*About us section ends*/
+			/*About us section ends*/
 
-							/* services section starts */
-.services,.courses {
+			/* services & course section starts */
+.services, .courses {
     display: flex;
-    padding: 0% 11% 3%;
-	flex-wrap:wrap;
-}
-.services-title {
-    padding: 0 0 1% 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 68%;
+    margin: 2em auto 6em;
 }
 .service {
     border: 1px solid black;
-    margin: 0% 2%;
     border-radius: 5px;
-	width:29%;
+	width:30%;
 }
 .ams-service {
-    padding: 6%;
+    padding: 1em;
 }
-.ams-service h3, .ams-service p {
-    margin: 0 0 5% 0;
+.ams-service p{
+    margin: 1em 0 2em;
 }
 .read-btn {
     background-color: #005bea;
     color: white;
     border: none;
-    padding: 3% 15%;
-border-radius: 5px;
+    border-radius: 5px;
+    padding: 1em 4em;
 }
-.ams-service .read-btn {
-    margin: 6% 0;
+.service .read-btn {
+    margin: 1em 0 2em;
 }
+			/* services section ends */
 
-
-							/* services section ends */
-
-							/*Featured courses starts*/
+			/*Featured courses starts*/
 .course {
     border: 1px solid black;
-    margin:0% 2%;
     border-radius: 5px;
-	width:29%;
+	width:30%;
 }
-.course ul {
-    padding: 0px;
-    overflow: hidden;
-    height: 21%;
-    margin: 0px;
+.course h3{
+    padding:1em 1em 0;
 }
-.course ul:hover {
- overflow-y: scroll;
-}
-.course ul li {
-    list-style: none;
-    padding: 4% 6%;
+.course p {
+    padding: 1em 1em 2rem;
 }
 .course p, .course li {
     border-bottom: 1px solid;
 }
 .course ul li a {
-    font-family: 'poppinsMedium';
      text-decoration: none;
     color: black;
     font-size: 17px;
+    padding-left: 1em;
 }
-.course p {
-    padding: 0% 6% 7%;
-    margin: 0px;
+.course ul {
+    list-style: none;
+    height: 8em;
+    overflow: hidden;
 }
-.course h3 {
-    padding: 7% 6% 3%;
+.course ul li {
+    padding: 8px 0;
 }
-.course .read-btn{
-    margin:6% 6%;
+.read-btn {
+    margin: 3em 1em 2em;
 }
-.featured-title {
-    padding: 2% 0% 0%;
+.course ul:hover {
+ overflow-y: scroll;
 }
-							/*Featured courses ends*/
 
-							/*testimonials starts*/
+
+
+			/*Featured courses ends*/
+
+			/*testimonials starts*/
 .testimonials-section{
     background:url(../images/ams-testimonials-background.jpg) no-repeat 0px 0px;
     background-size:cover;
@@ -197,91 +211,94 @@ border-radius: 5px;
     background-size:cover;
     display: flex;
     width: 50%;
-    padding: 0 0 10% 0;
     position:relative;
+    padding: 0 0 7em 0;
 }
 .profile-content {
     width: 60%;
+    padding: 9em 0 0 5em;
 }
 .profile-photo {
     width: 38%;
-    padding: 8% 0% 0% 0%;
-    box-sizing: border-box;
+    padding: 3.7em 1.5em;
 }
 .profile-photo h5 {
     color: #18242c;
-    margin: 15% 0;
-    font-family: 'poppinsRegular';
-}
-.profile-content p {
-    padding: 28% 0% 0% 15%;
+    padding: 3em 0;
 }
 img.pin {
     position: absolute;
-    right: 11%;
+    right: 14%;
     top: -5px;
 }
 .student-profiles {
-    padding: 2% 0 4% 0;
     display: flex;
     justify-content: center;
+    padding: 4em 0 3em 0;
 }
 .slide-circles {
-    display: flex;
-    position: relative;
-    bottom: 75px;
-    box-sizing: border-box;
-    width: fit-content;
+    width: 40%;
     margin: auto;
+    text-align: end;
+    position: relative;
+    bottom: 5em;
 }
 .slide-circles span {
-    display: block;
-    height: 18px;
-    width: 18px;
-    background-color: gray;
+    display:inline-block;
+    height: 21px;
+    width: 21px;
+    background-color: #c3c0c0;
     border-radius: 100%;
-    margin: 7px;
+    margin: 8px;
 }
-					/*testimonials ends*/
+			/*testimonials ends*/
 
-							/*contact us section starts*/
+			/*location section starts*/
+iframe {
+    width: 100%;
+}
+			/*location section ends*/
+
+			/*contact us section starts*/
 .contact-section {
     background: blue url(../images/ams-contact-us-background.jpg) no-repeat 0px 0px;
     text-align:center;
     background-size:cover;
-    padding: 3% 0% 6%;
 }
 .contact-us h1 {
     color: white;
 }
+.contact-us {
+    padding: 2em 0;
+}
 .inputs {
-    padding: 34px 0 0 0;
+    margin: 3.3em 0 0;
 }
 input {
     padding: 20px 40px;
-    margin: 1%;
     border: none;
     outline: none;
     border-radius: 35px;
     font-size: 17px;
-    width: 22%;
+    width: 28%;
+    margin-bottom: 29px;
 }
-input#submit-btn {
-    background-color: #fba43d;
-    width: 15%;
-    font-family: 'poppinsBold';
+.submit-btn {
+    margin: 1em 0 7em;
+}
+#submit-btn {
+    background-color: #f8861b;
     font-size: 20px;
     padding: 12px 0px;
+    width: 13%;
 }
-							/*contact us section ends*/
-							/*footer starts*/
-.footer-logo,.menus,.policies,.social-media {
-    width: 20%;
-}
+			/*contact us section ends*/
+			/*footer starts*/
 .footer-logo {
-    margin: 0 25px 0 0;
-    position: relative;
-    top: -45px;
+    width: 23%;
+}
+.menus,.policies,.social-media {
+    width: 19%;
 }
 footer {
     background: #031323 url(../images/ams-footer-background.jpg) no-repeat 0px 0px;
@@ -289,49 +306,49 @@ footer {
     color: #e7e7e8;
 }
 .information-title {
-    padding: 4% 0%;
+    padding: 2em 0;
 }
 footer h1 {
     color: white;
-   margin:0px;
 }
 .information {
     display: flex;
-    justify-content: center;
-    padding: 3% 0% 3% 4%;
+    justify-content: space-around;
+    width: 78%;
+    margin: auto;
+}
+.menus, .policies, .social-media {
+    padding: 3em 0 0 2em;
 }
 .footer-logo img {
     width: 200px;
+    padding-bottom: 1em;
 }
 .footer-logo p {
     text-align: justify;
+    color: #e7e7e8;
 }
 h5 {
     font-size: 20px;
-    margin: 0px;
-    color: orange;
-    font-family: 'poppinsRegular';
-}
-footer ul {
-    padding: 0px;
+    color: #f8861b;  
+    padding-bottom: 1em;
 }
 footer ul li {
+    padding: 3px 0;
+}
+footer ul {
     list-style: none;
-    padding: 1% 0;
 }
 footer ul li a {
     text-decoration: none;
     color: #e7e7e8;
-    font-family: 'poppinsLight';
 }
-.copy-right {
-    padding: 0 0 4% 0;
+.menus, .policies, .social-media {
+    padding-top: 43px;
+}
+.information + div{
     display: flex;
     justify-content: center;
-}.copy-right p{
-      font-family:poppinsLight;
+    padding: 7em 0 4em;
 }
-.menus {
-    padding: 0 0 0 2%;
-}
-							/*footer ends*/
+			/*footer ends*/

@@ -1,0 +1,408 @@
+ @media (max-width:576px) {
+			/*header section--max-576*/
+ul.navbar-nav {
+     gap: 0px; 
+}
+			/*banner section--max-576*/
+h1 {
+    font-size: 2.5em;
+    line-height:2em;
+}
+.banner-image {
+    width: 100%;
+}
+			/*about us section--max-576 */
+.about-us p {
+    font-size: 16px;
+    line-height: 25px;
+}
+.about-us {
+    width: 85%;
+    margin: auto;
+}
+.ams-service {
+    padding: 1em;
+}
+
+			/*services & courses sections--max-576*/
+.service, .course {
+    width: 90%;
+    margin: 2% 0;
+}
+button.btn.read-btn {
+    padding: 0.5em 3em;
+}
+p {
+    font-size: 15px;
+}
+
+				/*contact us section--max-576*/
+input {
+    padding: 16px 30px;
+    font-size: 16px;
+    width: 90%;
+}
+#submit-btn {
+    font-size: 18px;
+    width: 45%;
+    margin: 2em 0 3em;
+}
+			/*footer --max-576*/
+.footer-content {
+    width: 100%;
+}
+h5 {
+    padding-bottom: 0px;
+}
+.copy-right {
+    padding: 3em 0;
+}
+
+}
+
+@media (min-width:576px) {
+			/*header section--min-576*/
+ul.navbar-nav {
+     gap: 0px; 
+}
+			/*banner section--min-576*/
+h1 {
+    font-size: 2.5em;
+    line-height:2em;
+}
+.banner-image {
+    width: 100%;
+}
+			/*about us section--min-576 */
+.about-us {
+    width: 85%;
+    margin: auto;
+}
+			/*services & courses sections--min-576*/
+.service, .course {
+    width: 90%;
+    margin: 2% 0;
+}
+button.btn.read-btn {
+    padding: 0.5em 3em;
+}
+			/*testimonials section--min-576*/
+
+
+.profile-content {
+    padding: 7em 0 0 5em;
+}
+.profile-photo h5 {
+    padding: 2em 0;
+    font-size: 17px;
+}
+
+button.slides {
+    height: 18px !important;
+    width: 18px !important;
+    background-color: gray !important;
+    border-radius: 100%;
+    margin: 0px 6px !important;
+}
+.carousel-indicators {
+    margin-left: 20% !important;
+}
+
+
+
+
+
+
+
+				/*contact us section--min-576*/
+.inputs-data {
+    padding: 16px 30px;
+    font-size: 16px;
+    width: 90%;
+}
+#submit-btn {
+    font-size: 18px;
+    width: 45%;
+    margin: 2em 0 3em;
+}
+			/*footer --min-576*/
+.footer-content {
+    width: 100%;
+}
+h5 {
+    padding-bottom: 0px;
+}
+.copy-right {
+    padding: 3em 0;
+}
+}
+
+@media (min-width:768px) {
+			/*banner--min-768*/
+.banner {
+    justify-content: center;
+}
+.banner-content,.banner-image{
+    width:75%;
+}
+			/*services & courses --min-768*/
+.service, .course {
+    width: 43%;
+    margin: 2% 0;
+}
+.ams-services, .courses {
+    width: 100%;
+}
+			/*testimonials section--min-768*/
+
+.profile-content {
+    padding: 4em 0 0 4em;
+}
+.profile-photo h5 {
+    padding: 1em 0;
+    font-size: 16px;
+}
+
+
+
+
+
+
+			/*contact us section--min-768*/
+.inputs-data  {
+    width: 55%;
+}
+#submit-btn {
+    width: 25%;
+}
+			/*footer --min-768*/
+.footer-content {
+    width: 45%;
+}
+.footer-content img {
+    padding-bottom: 0px;
+}
+}
+
+@media (min-width:992px) {
+			/*header--min-992*/
+a.nav-link {
+    font-size: 18px;
+}
+			/*banner--min-992*/
+.banner-content{
+    width:50%;
+}
+.banner-image {
+    width: 50%;
+}
+			/*about us--min-992*/
+.about-us {
+    width: 75%;
+}
+.about-us p {
+    font-size: 16px;
+    line-height: 25px; 
+}
+			/*services & courses --min-992*/
+.service, .course {
+    width: 29%;
+    margin: 0px;
+}
+h3 {
+    font-size: 1.2em;
+}
+			/*testimonials section--min-992*/
+
+.profile-content {
+    padding: 7em 0 0 4em;
+}
+.profile-photo h5 {
+    padding: 2em 0;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+			/*contact us section--min-992*/
+.inputs-data  {
+    width: 45%;
+}
+#submit-btn {
+    width: 23%;
+}
+			/*footer --min-992*/
+.footer-content {
+    width: 29%;
+}
+.footer-content img {
+    padding-bottom: 0px; 
+}
+h5 {
+    padding-bottom: 12px;
+}
+}
+
+
+
+
+
+@media screen and (min-width:1200px) {
+h1 {
+    font-size: 3em;
+    line-height:3em;
+    color: #2767b4;
+}
+h3 {
+    font-size: 1.3em;
+    color:#474747;
+}
+p {
+    text-align:justify;
+}
+        		/*header section min-1200*/
+a.nav-link {
+    font-size: 21px;
+}
+ul.navbar-nav {
+    gap: 35px;
+}
+			/*banner section min-1200*/
+
+.banner-image{
+    width:48%;
+}
+			/*About us section min-1200*/
+.about-us p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.about-us {
+    width: 70%;
+    margin: auto;
+}
+			/* services & course section min-1200*/
+.ams-services,.courses {
+    width: 88%;
+}
+.service,.course {
+    width: 28%;
+}
+.btn.read-btn {
+    padding: 1em 3em;
+}
+			/*Featured courses min-1200*/
+.course ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding-left: 1em;
+}
+.course ul {
+    height: 8em;
+    overflow: hidden;
+}
+.course ul li {
+    padding: 8px 0;
+}
+			/*testimonials min-1200*/
+
+.profile-content {
+    padding: 5em 0 0 4em;
+}
+.profile-photo h5 {
+    padding: 1em 0;
+    font-size: 18px;
+}
+button.slides {
+    height: 20px !important;
+    width: 20px !important;
+    background-color: gray !important;
+    border-radius: 100%;
+    margin: 0px 8px !important;
+}
+.carousel-indicators {
+    margin-left: 25% !important;
+}
+
+
+
+
+
+			/*location section min-1200*/
+iframe {
+    width: 100%;
+}
+			/*contact us section min-1200*/
+.contact-us {
+    padding: 2em 0;
+}
+.inputs {
+    margin: 3.3em 0 0;
+}
+.inputs-data  {
+    padding: 11px 60px;
+    font-size: 21px;
+    width: 40%;
+    margin: 54px 0 0;
+}
+#submit-btn {
+    font-size: 20px;
+    padding: 12px 0px;
+    width: 13%;
+    margin: 3em 0 6em;
+}
+.input-name{
+    margin: 33px 0 0 0;
+}
+			/*footer min-1200*/
+.footer-logo {
+    width: 23%;
+}
+.information {
+    width: 95%;
+    margin: auto;
+    justify-content:space-between;
+}
+.footer-content{
+    width:29%;
+}
+.footer-content img {
+    width: 200px;
+    padding-bottom: 1em;
+}
+.footer-content p {
+    padding:1em 0 0;
+}
+h5 {
+    font-size: 20px;
+    padding-bottom: 1em;
+}
+footer ul li {
+    padding: 3px 0;
+}
+.navigate, .policies, .social-media {
+    padding-top: 43px;
+}
+.copy-right{
+    padding: 7em 0 4em;
+}
+}
+@media (min-width:1400px){
+.profile-content {
+    padding: 9em 0 0 5em;
+}
+.profile-photo h5 {
+    padding: 1em 0;
+    font-size: 18px;
+}
+.profile-photo h5 {
+    padding: 3em 0;
+    font-size: 20px;
+}
+
+}
