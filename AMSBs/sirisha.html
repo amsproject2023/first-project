@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application</title>
+  <link rel="stylesheet" href="bootstrap.css" />
+  <style>
+    .form {
+      border: 2px solid #ffa500;
+      border-radius: 15px;
+      background-color: #6716b3;
+      color: #fff;
+    }
+    .error {
+      border: 2px solid red;
+    }
+    .error-message {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="container">
+    <div class="row">
+      <div class="col-xl-6 col-lg-8 col-md-10 col-sm-12 form  m-auto my-5 p-lg-4 p-md-4 p-sm-3">
+        <div class="text-center py-lg-4 py-md-3 py-sm-2">
+          <h1>Book Your Free Demo Class</h1>
+        </div>
+        <form onsubmit="return validateForm()" action="users_form.php" method="post">
+          <div class="py-lg-3 py-md-3 py-sm-2">
+            <label for="student-name">Student Name</label>
+            <input type="text" class="form-control" id="student-name" name='student-name' />
+            <div class="error-message"></div>
+          </div>
+          <div class="py-lg-3 py-md-3 py-sm-2">
+            <label for="father-name">Father's Name</label>
+            <input type="text" class="form-control" id="father-name" name='father-name' />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="py-lg-3 py-md-3 py-sm-2">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" name='address' />
+            <div class="error-message"></div>
+          </div>
+          <div class="py-lg-3 py-md-3 py-sm-2">
+            <label for="school-name">Name of the School</label>
+            <input type="text" class="form-control" id="school-name" name='school-name' />
+            <div class="error-message"></div>
+          </div>
+          <div class="py-lg-3 py-md-3 py-sm-2">
+            <label for="class">Class / Grade</label>
+            <input type="text" class="form-control" id="grade" name='class' />
+            <div class="error-message"></div>
+          </div>
+          <div class="py-lg-3 py-md-3 py-sm-2">
+            <label for="phone-number">Whatsapp Contact Number</label>
+            <input type="text" class="form-control" id="phone-number" name='whatsapp-contact-number' />
+            <div class="error-message"></div>
+          </div>
+          <div class="py-lg-3 py-md-3 py-sm-2 text-center">
+            <button type="submit" class="btn btn-light">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function validateForm() {
+      // Get the values of the input fields
+      var studentName = document.getElementById("student-name");
+      var fatherName = document.getElementById("father-name");
+      var address = document.getElementById("address");
+      var schoolName = document.getElementById("school-name");
+      var grade = document.getElementById("grade");
+      var phoneNumber = document.getElementById("phone-number");
+
+      // Check if all required fields are filled
+      if (studentName.value == "") {
+        studentName.classList.add("error");
+        studentName.nextElementSibling.innerText = "Please enter student name";
+        studentName.scrollIntoView({ behavior: 'smooth' });
+        return false;
+      }
+      if (fatherName.value == "") {
+        fatherName.classList.add("error");
+        fatherName.nextElementSibling.innerText = "Please enter father name";
+        fatherName.scrollIntoView({ behavior: 'smooth' });
+        return false;
+      }
+
+      if (address.value == "") {
+        address.classList.add("error");
+        address.nextElementSibling.innerText = "Please enter address";
+        address.scrollIntoView({ behavior: 'smooth' });
+        return false;
+      }
+      if (schoolName.value == "") {
+        schoolName.classList.add("error");
+        schoolName.nextElementSibling.innerText = "Please enter school name";
+        schoolName.scrollIntoView({ behavior: 'smooth' });
+        return false;
+      }
+      if (grade.value == "") {
+        grade.classList.add("error");
+        grade.nextElementSibling.innerText = "Please enter your class";
+        grade.scrollIntoView({ behavior: 'smooth' });
+        return false;
+      }
+      if (phoneNumber.value == "") {
+        phoneNumber.classList.add("error");
+        phoneNumber.nextElementSibling.innerText = "Please enter phone number";
+        phoneNumber.scrollIntoView({ behavior: 'smooth' });
+        return false;
+      }
+
+      // Validate phone number
+      var phoneRegex = /^\d{10}$/;
+      if (!phoneRegex.test(phoneNumber.value)) {
+        phoneNumber.classList.add("error");
+        phoneNumber.nextElementSibling.innerText = "Please enter a valid 10-digit phone number";
+        phoneNumber.scrollIntoView({ behavior: 'smooth' });
+        return false;
+      }
+
+      // If all validations pass, return true
+      return true;
+    }
+
+    // Remove error class and message on focus
+    var formInputs = document.querySelectorAll(".form-control");
+    formInputs.forEach(function (input) {
+      input.addEventListener("focus", function () {
+        input.classList.remove("error");
+        input.nextElementSibling.innerText = "";
+      });
+    });
+
+  </script>
+</body>
+
+</html>

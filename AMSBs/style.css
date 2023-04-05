@@ -236,9 +236,11 @@ iframe {
     background-size: 25px;
     background-color: white;
 }
-#error_msg,#error_msg1,#error_msg2{
-display:none;
+.error_msg{
 color:red;
+}
+.error{
+border:1px solid red;
 }
 
 			/*contact us section ends*/
